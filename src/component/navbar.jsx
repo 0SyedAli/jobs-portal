@@ -32,17 +32,17 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#mentorship">
+              <a className="nav-link" href="/mentorship">
                 Mentorship
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#careers">
+              <a className="nav-link" href="/careers">
                 Careers
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">
+              <a className="nav-link" href="/contact">
                 Contact Us
               </a>
             </li>

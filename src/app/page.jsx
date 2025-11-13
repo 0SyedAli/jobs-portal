@@ -19,7 +19,7 @@ export default function Home() {
 
           {/* Search Bar */}
           <div className="row justify-content-center mb-4">
-            <div className="col-lg-8">
+            <div className="col-lg-10 col-xl-9 col-xxl-8">
               <div className="input-group">
                 <input type="text" className="form-control" placeholder="Job Title or Company" />
                 <select className="form-select search-select">
@@ -28,7 +28,7 @@ export default function Home() {
                 <select className="form-select search-select">
                   <option>Select Category</option>
                 </select>
-                <button className="btn btn-primary">
+                <button className="btn btn-primary h-100">
                   <span>
                     <IoSearchSharp />
                   </span>
@@ -42,7 +42,7 @@ export default function Home() {
           <div className="row justify-content-center" style={{ marginTop: "70px" }}>
             <div className="col-8">
               <div className="row justify-content-center">
-                <div className="col-md-3">
+                <div className="col-md-4 col-xl-3">
                   <div className="stat-card">
                     <div className="stat-icon stat-icon-1 mb-0">
                       <Image src="/images/o_bag.png" width={25} height={25} alt="" />
@@ -53,7 +53,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-4 col-xl-3">
                   <div className="stat-card">
                     <div className="stat-icon stat-icon-2">
                       <Image src="/images/o_users.png" width={25} height={25} alt="" />
@@ -64,7 +64,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-4 col-xl-3">
                   <div className="stat-card">
                     <div className="stat-icon stat-icon-3">
                       <Image src="/images/o_building.png" width={25} height={25} alt="" />
@@ -160,8 +160,8 @@ export default function Home() {
                 By adopting an evidence-based approach, organizations can make more informed and effective hiring
                 decisions, ultimately leading to better business outcomes and stronger leadership teams.
               </p>
-              <button className="btn btn-primary me-4">Search Job</button>
-              <Link href="" className="text-decoration-underline" style={{ color: "#5E6AD2", fontWeight: "500" }}>Learn More</Link>
+              <Link href="/jobs" className="btn btn-primary me-4">Search Job</Link>
+              <Link href="#" className="text-decoration-underline" style={{ color: "#5E6AD2", fontWeight: "500" }}>Learn More</Link>
             </div>
           </div>
         </div>
@@ -179,7 +179,7 @@ export default function Home() {
                 <p className="mb-4">
                   Solutions that enhance efficiency, attract top talent, and improve the overall recruitment process.
                 </p>
-                <button className="btn btn-primary px-3">Search Job</button>
+                <Link href="/jobs" className="btn btn-primary px-3">Search Job</Link>
               </div>
               <div className="col-6 text-center">
                 <Image src="/images/unnamed2.png" width={320} height={320} alt="" />

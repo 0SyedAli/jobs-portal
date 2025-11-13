@@ -203,6 +203,8 @@ textarea {
 .btn-primary {
   background-color: var(--theme-color-1);
   border-color: var(--theme-color-1);
+  text-transform: capitalize;
+  height: 40px;
 }
 
 /*
@@ -288,8 +290,8 @@ textarea {
 
 .stat-icon {
   font-size: 12px;
-  width: 60px;
-  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
@@ -306,7 +308,7 @@ textarea {
 }
 
 .section-title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -327,6 +329,14 @@ textarea {
   flex-direction: column;
   align-items: center;
   gap: 30px;
+}
+
+.tailored-talent-section .category-card {
+  height: 265px;
+}
+
+.jobs-talent-section .category-card {
+  height: auto;
 }
 
 .category-icon img {
@@ -490,7 +500,7 @@ textarea {
   background: #0F1941;
   background: linear-gradient(45deg, rgba(15, 25, 65, 1) 0%, rgba(94, 106, 210, 1) 100%);
   color: white;
-  padding: 156px 0;
+  padding: 120px 0;
   text-align: center;
 }
 
@@ -717,12 +727,12 @@ textarea {
   background: #0F1941;
   background: linear-gradient(45deg, rgba(15, 25, 65, 1) 0%, rgba(94, 106, 210, 1) 100%);
   color: white;
-  padding: 156px 0;
+  padding: 120px 0;
   text-align: center;
 }
 
 .educators-wrapper .hero-section h1 {
-  font-size: 42px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -848,6 +858,10 @@ textarea {
   font-size: 14px;
 }
 
+.our-professionals {
+  padding: 100px 0px 110px
+}
+
 .our-professionals .category-card {
   text-align: left;
   align-items: start;
@@ -866,14 +880,15 @@ textarea {
 
 /* Hero Section */
 .contact-hero {
-  background-color: #3e3b92;
+  background: #0F1941;
+  background: linear-gradient(45deg, rgba(15, 25, 65, 1) 0%, rgba(94, 106, 210, 1) 100%);
   color: white;
-  padding: 100px 0;
+  padding: 120px 0;
   text-align: center;
 }
 
 .contact-hero h1 {
-  font-size: 42px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -894,17 +909,15 @@ textarea {
   margin-bottom: 40px;
 }
 
-.contact-info {
-  margin-bottom: 25px;
-}
-
 .contact-info h5 {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 .contact-info p {
   font-weight: 500;
 }
+
 .contact-detail {
   font-size: 18px;
   font-weight: bold;
@@ -946,7 +959,7 @@ textarea {
   font-weight: 600;
   font-size: 16px;
   font-family: var(--font-figtree);
-   padding: 10px 50px;
+  padding: 10px 50px;
 }
 
 /* Map Section */
@@ -997,6 +1010,411 @@ textarea {
   margin-bottom: 30px;
 }
 
+.mentor_seciont {
+  background-color: #404C9B;
+}
+
+.mentor_seciont h2,
+.mentor_seciont p,
+.mentor_seciont a {
+  color: #FFF;
+}
+
+/* jobs-listing.css */
+
+/* --- Wrapper for all custom styles --- */
+.jobs-listing-wrapper {
+  /* Main container background */
+  background-color: #FFF;
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* --- Hero Section Styles (assuming these are shared/already present based on class names) --- */
+.educators-wrapper.jobs-wrapper .hero-section h1 {
+  /* Style for the "Jobs" heading */
+  /* Add any specific styles for h1 here if needed */
+}
+
+/* --- Sidebar Styles --- */
+.jobs-listing-wrapper .sidebar-filter-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.jobs-listing-wrapper .filter-title {
+  font-weight: 600;
+  margin-bottom: 15px;
+  /* Default margin for most titles */
+  font-size: 14px;
+}
+
+/* Specific title margin adjustments */
+.jobs-listing-wrapper .filter-title-mb-12 {
+  margin-bottom: 12px;
+}
+
+/* Search Input Group */
+.jobs-listing-wrapper .search-input-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.jobs-listing-wrapper .search-input {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  font-size: 13px;
+  width: 100%;
+  padding: 10px 15px;
+  padding-left: 40px;
+  color: #000;
+  /* Adjust padding for better look */
+}
+
+.jobs-listing-wrapper .search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+/* Select Input (Location) */
+.jobs-listing-wrapper .location-select {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-bottom: 25px;
+  padding: 8px 15px;
+  width: 100%;
+}
+
+/* Checkbox Lists */
+.jobs-listing-wrapper .checkbox-list-container {
+  margin-bottom: 25px;
+}
+
+.jobs-listing-wrapper .form-check {
+  margin-bottom: 10px;
+}
+
+.jobs-listing-wrapper .form-check-input {
+  border-radius: 3px;
+  /* You might need to add specific styling to match default browser checkbox appearance */
+}
+
+.jobs-listing-wrapper .form-check-label {
+  font-size: 13px;
+  margin-bottom: 0;
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 5px;
+  /* Spacing between checkbox and label text */
+}
+
+.jobs-listing-wrapper .checkbox-count {
+  float: right;
+  color: #999;
+  font-size: 12px;
+}
+
+/* Salary Inputs */
+.jobs-listing-wrapper .salary-input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.jobs-listing-wrapper .salary-input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+  background-color: #f8f9fa;
+  font-size: 13px;
+}
+
+/* Filter Button */
+.jobs-listing-wrapper .filter-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+/* Tag Buttons */
+.jobs-listing-wrapper .tag-container {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.jobs-listing-wrapper .tag-button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.jobs-listing-wrapper .tag-button.active {
+  background-color: #6366f1;
+  color: white;
+}
+
+.jobs-listing-wrapper .tag-button.inactive {
+  background-color: #e8f0fe;
+  color: #6366f1;
+}
+
+/* --- Main Content Header --- */
+.jobs-listing-wrapper .main-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.jobs-listing-wrapper .results-text {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+.jobs-listing-wrapper .sort-select {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+  background-color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* --- Job Cards --- */
+.jobs-listing-wrapper .job-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.jobs-listing-wrapper .job-card {
+  padding: 30px 40px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  border-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.jobs-listing-wrapper .job-card-content {
+  flex: 1;
+}
+
+.jobs-listing-wrapper .job-posted-time {
+  color: #5E6AD2;
+  font-size: 15px;
+  margin-bottom: 15px;
+  padding: 4px 10px;
+  background-color: #3096881a;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.jobs-listing-wrapper .job-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.jobs-listing-wrapper .job-header-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 12px;
+}
+
+.jobs-listing-wrapper .company-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.jobs-listing-wrapper .job-title-group {
+  flex: 1;
+}
+
+.jobs-listing-wrapper .job-title {
+  font-weight: 700;
+  margin-bottom: 4px;
+  font-size: 28px;
+}
+
+.jobs-listing-wrapper .company-name {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.jobs-listing-wrapper .job-details-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jobs-listing-wrapper .job-meta-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.jobs-listing-wrapper .job-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: #666;
+  font-weight: 600;
+}
+
+.jobs-listing-wrapper .job-meta-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(34%) sepia(92%) saturate(433%) hue-rotate(196deg) brightness(105%) contrast(89%);
+}
+
+.jobs-listing-wrapper .details-button {
+  padding: 8px 20px;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+.conpanies_logos {
+  filter: brightness(0) saturate(100%) invert(34%) sepia(92%) saturate(433%) hue-rotate(196deg) brightness(105%) contrast(89%);
+}
+
+/* Pagination (if implemented, though not in the provided code snippet's visual output) */
+/* The provided code snippet has totalPages and setCurrentPage logic, but no rendered pagination UI. 
+You would add pagination styles here if you render it. */
+
+/* --- Base Wrapper --- */
+.contact-wrapper {
+  /* Styles for the overall contact page wrapper if needed */
+}
+
+/* --- Open Positions Section Styles --- */
+.contact-wrapper .open-positions-section {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 80px 0;
+}
+
+.contact-wrapper .positions-title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact-wrapper .positions-row {
+  align-items: center;
+  /* Equivalent to style={{ alignItems: "center" }} */
+}
+
+.contact-wrapper .card-wrapper {
+  display: flex;
+  /* Ensures inner div takes full height of column */
+}
+
+.contact-wrapper .position-card {
+  padding: 25px 15px;
+  border-radius: 8px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Optional: Hover effect, demonstrating a style that was not inline but is commonly used */
+  /* &:hover {
+        transform: translateY(-5px);
+    } */
+}
+
+/* Style for the Featured (Dark Blue) Card */
+.contact-wrapper .featured-card {
+  background-color: #3e3b92;
+}
+
+/* Style for the Regular (White) Cards */
+.contact-wrapper .regular-card {
+  background-color: white;
+}
+
+/* Style for the Position Title */
+.contact-wrapper .position-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+/* Color override for the title inside the dark blue card */
+.contact-wrapper .featured-card .position-title {
+  color: white;
+}
+
+/* Color override for the title inside the white card */
+.contact-wrapper .regular-card .position-title {
+  color: #1a1a1a;
+}
+
+/* Style for the Position Details (Location/Service) */
+.contact-wrapper .position-details {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+/* Color override for details inside the dark blue card */
+.contact-wrapper .featured-card .position-details {
+  color: #e0e0e0;
+}
+
+/* Color override for details inside the white card */
+.contact-wrapper .regular-card .position-details {
+  color: #666;
+}
+
+/* Adjustments for the extra-long title in Position 5 if needed */
+.contact-wrapper .long-title {
+  /* Example adjustment for long titles */
+  line-height: 1.2;
+}
 
 footer {
   font-family: var(--font-inter);
