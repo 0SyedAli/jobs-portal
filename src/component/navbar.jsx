@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
 
 export default function Navbar() {
@@ -9,7 +10,7 @@ export default function Navbar() {
     >
       <div className="container px-4">
         <Link className="navbar-brand fw-bold" href="/">
-          LOGO
+          <Image src="/images/logo-here.png" style={{ objectFit: "contain", width: "100%" }} width={150} height={60} alt="" />
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span className="navbar-toggler-icon"></span>

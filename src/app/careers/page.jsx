@@ -258,7 +258,7 @@ export default function Contact() {
 
                             {/* Right Side - Contact Form (Note: The form fields are missing in the original provided HTML structure, but the handler logic is present.) */}
                             <div className="col-lg-7">
-                                <p>
+                                <p className="mb-0">
                                     The Community Wellness Project is a specialized professional and educational staffing and recruitment firm dedicated to meeting businesses’ unique needs. Our experienced team leverages industry expertise and a deep understanding of the education and corporate sectors to provide tailored staffing solutions that drive improvement, innovation, and excellence.
                                 </p>
                             </div>

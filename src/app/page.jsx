@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Navbar />
       {/* Hero Section */}
-      <div className="hero-section text-white text-center">
+      <div className="hero-section home-hero-section text-white text-center">
         <div className="container">
           <h1 className="hero-title">Find Your Dream Job Today!</h1>
           <p className="hero-subtitle">

@@ -221,6 +221,12 @@ textarea {
   padding: 206px 0 150px;
 }
 
+.home-hero-section {
+  background-image:
+  linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9)),
+  url("/images/Where-to-Find-Job-Opportunities-for-Students-2048x1152.jpg");
+}
+
 .hero-title {
   font-size: 70px;
   font-weight: bold;
