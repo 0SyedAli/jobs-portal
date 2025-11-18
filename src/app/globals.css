@@ -4,6 +4,7 @@
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --theme-color-1: #5E6AD2;
+  --theme-color-2: #E95C4B;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -207,6 +208,11 @@ textarea {
   height: 40px;
 }
 
+.btn.btn-primary {
+  background-color: var(--theme-color-2);
+  border-color: var(--theme-color-2);
+}
+
 /*
   This CSS file contains the styles extracted from the inline styling in the Home.js component.
   It assumes a Bootstrap-like framework is already providing utility classes like
@@ -222,9 +228,12 @@ textarea {
 }
 
 .home-hero-section {
-  background-image:
+  /* background-image:
   linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9)),
-  url("/images/Where-to-Find-Job-Opportunities-for-Students-2048x1152.jpg");
+  url("/images/hero.png"); */
+  background-image: url("/images/hero.png");
+  /* height: 100vh; */
+
 }
 
 .hero-title {
@@ -309,7 +318,7 @@ textarea {
 
 /* --- Tailored Talent Section Styles --- */
 .tailored-talent-section {
-  background-color: #404C9B;
+  background-color: #202544;
   padding: 120px 0 60px;
 }
 
@@ -356,7 +365,7 @@ textarea {
 }
 
 .category-small-text {
-  color: #309689;
+  color: #E95C4B;
   font-weight: 400;
   font-size: 16px;
   font-family: var(--font-inter);
@@ -370,10 +379,15 @@ textarea {
   padding: 60px 0;
 }
 
-.evidence-section {
+.evidence-approach-section .eas_img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* .evidence-section {
   background: #0F1941;
   background: linear-gradient(45deg, rgba(15, 25, 65, 1) 0%, rgba(94, 106, 210, 1) 100%);
-}
+} */
 
 .evidence-section .section-title {
   font-size: 50px;
@@ -381,9 +395,22 @@ textarea {
   color: #FFE3E3;
 }
 
-.evidence-section p {
+.evidence-section .es_heading p {
   color: #FFE3E3;
+}
 
+.home-es .category-card {
+  padding: 30px;
+  text-align: left;
+  gap: 10px;
+  height: auto;
+  justify-content: center;
+  height: 100%;
+  font-family: var(--font-figtree);
+}
+.home-es .category-card p{
+  margin-bottom: 0;
+  line-height: 20px;
 }
 
 .evidence-image {

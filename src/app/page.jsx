@@ -150,7 +150,7 @@ export default function Home() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 text-center">
-              <Image src="/images/unnamed.png" width={400} height={400} alt="" />
+              <Image src="/images/sec2.jpg" className="eas_img" width={400} height={400} alt="" />
             </div>
             <div className="col-lg-6">
               <h2 className="section-title">
@@ -161,7 +161,7 @@ export default function Home() {
                 decisions, ultimately leading to better business outcomes and stronger leadership teams.
               </p>
               <Link href="/jobs" className="btn btn-primary me-4">Search Job</Link>
-              <Link href="#" className="text-decoration-underline" style={{ color: "#5E6AD2", fontWeight: "500" }}>Learn More</Link>
+              <Link href="#" className="text-decoration-underline" style={{ color: "#202544", fontWeight: "500" }}>Learn More</Link>
             </div>
           </div>
         </div>
@@ -190,10 +190,10 @@ export default function Home() {
       </section>
 
       {/* Evidence Based Features */}
-      <div className="tailored-talent-section evidence-section text-white" style={{ padding: "100px 0px 110px" }}>
+      <div className="tailored-talent-section evidence-section home-es text-white" style={{ padding: "100px 0px 110px" }}>
         <div className="container ">
           <div className="row align-items-center justify-content-center pb-3">
-            <div className="col-lg-9 mb-4 mb-lg-0 text-center">
+            <div className="col-lg-9 mb-4 mb-lg-0 text-center es_heading">
               <h2 className="section-title">
                 Evidence Based Approach to Recruitment
               </h2>
@@ -207,38 +207,26 @@ export default function Home() {
           <div className="row g-3 flex-nowrap pt-5">
             <div className="col-sm-3">
               <div className="category-card">
-                <div className="category-icon">
-                  <Image src="/images/bag2.png" width={40} height={40} alt="" />
-                </div>
-                <h6 className="category-title">Commerce</h6>
-                <small className="category-small-text">View Job</small>
+                <h6 className="category-title">Data-Driven Decision Making</h6>
+                <p>By utilizing historical data, performance metrics, and predictive analytics to identify candidates who are most likely to succeed in a role, we minimize personal bias by making decisions based on objective criteria.</p>
               </div>
             </div>
             <div className="col-sm-3">
               <div className="category-card">
-                <div className="category-icon">
-                  <Image src="/images/dish2.png" width={40} height={40} alt="" />
-                </div>
-                <h6 className="category-title">Construction</h6>
-                <small className="category-small-text">View Job</small>
+                <h6 className="category-title">Comprehensive Evaluation</h6>
+                <p>Utilizing assessment, in-depth interviews, psychometric tests, and situational judgment tests to evaluate candidates’ leadership skills, strategic vision, and cultural fit.</p>
               </div>
             </div>
             <div className="col-sm-3">
               <div className="category-card">
-                <div className="category-icon">
-                  <Image src="/images/bottle2.png" width={40} height={40} alt="" />
-                </div>
-                <h6 className="category-title">Hotels & Tourism</h6>
-                <small className="category-small-text">View Job</small>
+                <h6 className="category-title">Balanced Data & Intuition</h6>
+                <p>While data provides valuable insights, intuition and experience also play a crucial role in assessing cultural fit and leadership potential. A hybrid approach that combines both data and intuition can lead to more successful hires.</p>
               </div>
             </div>
             <div className="col-sm-3">
               <div className="category-card">
-                <div className="category-icon">
-                  <Image src="/images/cap2.png" width={40} height={40} alt="" />
-                </div>
-                <h6 className="category-title">Education</h6>
-                <small className="category-small-text">View Job</small>
+                <h6 className="category-title">Diverse Candidate Pool</h6>
+                <p>Ensure that the recruitment process promotes diversity and inclusion by building diverse candidate pools and implementing strategies to attract underrepresented group</p>
               </div>
             </div>
           </div>
@@ -257,13 +245,13 @@ export default function Home() {
           <div className="row g-4">
             {[
               {
-                img: "/images/blog2.jpg",
+                img: "/images/blog1.jpg",
                 date: "30 March 2024",
                 title: "Revitalizing Workplace Morale: Innovative Tactics for Boosting Employee Engagement in 2024",
                 label: "news"
               },
               {
-                img: "/images/blog1.jpg",
+                img: "/images/blog2.jpg",
                 date: "30 March 2024",
                 title: "How To Avoid The Top Six Most Common Job Interview Mistakes",
                 label: "blog"
