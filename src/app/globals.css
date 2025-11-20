@@ -228,12 +228,18 @@ textarea {
 }
 
 .home-hero-section {
+<<<<<<< Updated upstream
   /* background-image:
   linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9)),
   url("/images/hero.png"); */
   background-image: url("/images/hero.png");
   /* height: 100vh; */
 
+=======
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("/images/Where-to-Find-Job-Opportunities-for-Students-2048x1152.jpg");
+>>>>>>> Stashed changes
 }
 
 .hero-title {
@@ -993,6 +999,9 @@ textarea {
   font-size: 16px;
   font-family: var(--font-figtree);
   padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Map Section */
