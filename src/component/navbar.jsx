@@ -9,8 +9,8 @@ export default function Navbar() {
       className="navbar navbar-expand-lg  my-navbar"
     >
       <div className="container px-4">
-        <Link className="navbar-brand fw-bold" href="/">
-          <Image src="/images/logo-here.png" style={{ objectFit: "contain", width: "100%" }} width={150} height={60} alt="" />
+        <Link className="navbar-brand fw-bold pt-3 pb-0" href="/">
+          <Image src="/images/logo-w-2.png" style={{ objectFit: "contain", width: "100%" }} width={116} height={60} alt="" />
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span className="navbar-toggler-icon"></span>

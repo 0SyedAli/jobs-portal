@@ -11,7 +11,7 @@ export default function Educators() {
 
             <div className="educators-wrapper">
                 {/* Hero Section */}
-                <section className="hero-section">
+                <section className="hero-section home-hero-section member-hero-section">
                     <h1>Mentorship</h1>
                 </section>
 
@@ -38,7 +38,7 @@ export default function Educators() {
                 </div>
 
                 {/* Evidence Based Features */}
-                <div className="our-professionals text-white" >
+                <div className="our-professionals mentor-our text-white" >
                     <div className="container ">
                         <div className="row align-items-center justify-content-center pb-3">
                             <div className="col-lg-9 mb-4 mb-lg-0 text-center">

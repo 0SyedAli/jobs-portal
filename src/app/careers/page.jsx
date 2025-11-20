@@ -348,7 +348,7 @@ export default function Contact() {
 
                 {/* Map Section */}
                 <div className="map-section">
-                    <div className="container">
+                    <div className="container-fluid px-0 ">
                         <div className="map-box">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193596.26002810575!2d-74.14431235114544!3d40.69728463488439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1762996925992!5m2!1sen!2s"
@@ -361,11 +361,20 @@ export default function Contact() {
                 </div>
 
                 {/* Evidence Based Approach */}
-                <div className="evidence-approach-section">
+                <div className="evidence-approach-section car-eas">
                     <div className="container">
                         <div className="row flex-row-reverse align-items-center">
-                            <div className="col-lg-6 text-center">
-                                <Image src="/images/teamwork.png" style={{objectFit:"cover", width:"100%"}} width={400} height={400} alt="" />
+                            <div className="col-lg-6 ">
+                                <div className="row g-4">
+                                    <div className="col-6">
+                                        <Image className="wcu_img w-100 mb-4" src="/images/car-img1.jpg" width={500} height={338} alt="" />
+                                        <Image className="wcu_img w-100" src="/images/car-img2.jpg" width={500} height={200} alt="" />
+                                    </div>
+                                    <div className="col-6">
+                                        <Image className="wcu_img w-100 h-100" src="/images/car-im3.jpg" width={500} height={500} alt="" />
+                                    </div>
+
+                                </div>
                             </div>
                             <div className="col-lg-6">
                                 <h2 className="section-title">
@@ -374,7 +383,7 @@ export default function Contact() {
                                 <p className="mb-4">
                                     When you partner with the Community Wellness Project, you gain a staffing ally invested in your success and the strength of your community. We provide tailored staffing solutions that flex to your virtual, hybrid, or onsite needs. Our contracted professionals are well-compensated to ensure top talent. Long-term partners receive discounted rates. Above all, our mission is your organizational empowerment – freeing you to focus on core priorities while we handle supplemental staffing demands.
                                 </p>
-                                <Link href="/jobs" className="btn btn-primary me-4">start your search</Link>
+                                <Link href="/jobs" className="btn btn-primary me-4" style={{background:"#202545", borderColor:"#202545"}}>start your search</Link>
                             </div>
                         </div>
                     </div>

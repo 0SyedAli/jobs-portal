@@ -1,10 +1,15 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer style={{ backgroundColor: "#1a1a1a", color: "#ffffff", paddingTop: "60px", paddingBottom: "30px" }}>
       <div className="container">
         <div className="row mb-5">
           <div className="col-md-5 pe-5">
-            <h5>LOGO</h5>
+            <Link className="" href="/">
+              <Image src="/images/footer-logo.png" style={{ objectFit: "contain", marginBottom:"30px"}} width={116} height={60} alt="" />
+            </Link>
             <p style={{ color: "#c2c2c2", fontSize: "20px", fontFamily: "var(--font-lexend)" }}>
               Quis enim pellentesque viverra tellus eget molestie et molestie facilitisis. Congue nulla vivamus
               pellentesque ac porttitor in...
@@ -15,27 +20,27 @@ export default function Footer() {
             <ul style={{ listStyle: "none", padding: 0 }}>
               <li>
                 <a href="#" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  Telecommunications
+                  About Us
                 </a>
               </li>
               <li>
                 <a href="#" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  Hotels & Tourism
+                  Our Team
                 </a>
               </li>
               <li>
                 <a href="#" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  Construction
+                  Partners
                 </a>
               </li>
               <li>
                 <a href="#" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  Education
+                  For Candidates
                 </a>
               </li>
               <li>
                 <a href="#" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  Financial Services
+                  For Employers
                 </a>
               </li>
             </ul>
@@ -80,16 +85,15 @@ export default function Footer() {
                 type="email"
                 className="form-control"
                 placeholder="Email Address"
-                style={{ backgroundColor: "#2a2a2a", border: "1px solid #444", color: "#d8d8d8" }}
               />
             </div>
-            <button className="btn btn-primary px-3 w-100 mt-3" style={{ fontSize: "13px", fontWeight: "600", padding: "10px 20px" }}>Subscribe now</button>
+            <button className="btn btn-primary px-3 w-100 mt-3" style={{ fontWeight: "600", padding: "10px 20px" }}>Subscribe now</button>
           </div>
         </div>
         <div className="row" style={{ borderTop: "1px solid #333", paddingTop: "20px" }}>
           <div className="col-8">
             <small style={{ color: "#d8d8d8", fontSize: "13px" }}>
-               Randstad N.V.  | misconduct reporting | avoid job scams  | terms of service  | accessibility statement | privacy policy  | report security problem
+              Randstad N.V.  | misconduct reporting | avoid job scams  | terms of service  | accessibility statement | privacy policy  | report security problem
             </small>
           </div>
           <div className="col-4">

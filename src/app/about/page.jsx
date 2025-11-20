@@ -19,7 +19,7 @@ export default function About() {
                     <div className="container">
                         <div className="row flex-row-reverse align-items-center">
                             <div className="col-lg-6 text-center">
-                                <Image src="/images/unnamed.png" width={400} height={400} alt="" />
+                                <Image src="/images/about_sec1.png" className="w-100 h-auto object-fit-cover" width={400} height={400} alt="" />
                             </div>
                             <div className="col-lg-6">
                                 <h2 className="section-title">
@@ -34,7 +34,7 @@ export default function About() {
                                 <p className="mb-5">
                                     By partnering with The Community Wellness Project, you are investing in your organization’s success through empowered leadership and skilled personnel. Our commitment to excellence and client satisfaction drives us to deliver the best staffing solutions in the industry
                                 </p>
-                               </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,15 @@ export default function About() {
                     <div className="container">
                         <div className="row  align-items-center gx-5">
                             <div className="col-lg-6 ">
-                                <Image className="wcu_img w-100" src="/images/wcu.jpg" width={500} height={500} alt="" />
+                                <div className="row g-4">
+                                    <div className="col-6">
+                                        <Image className="wcu_img w-100 h-100" src="/images/ab1.png" width={500} height={500} alt="" />
+                                    </div>
+                                    <div className="col-6">
+                                        <Image className="wcu_img w-100 mb-4" src="/images/ab3.png" width={500} height={338} alt="" />
+                                        <Image className="wcu_img w-100" src="/images/ab2.png" width={500} height={200} alt="" />
+                                    </div>
+                                </div>
                             </div>
                             <div className="col-lg-6">
                                 <h2 className="section-title">
@@ -123,7 +131,7 @@ export default function About() {
                                 <p className="mb-5">
                                     When you partner with the Community Wellness Project, you gain a staffing ally invested in your success and the strength of your community. We provide tailored staffing solutions that flex to your virtual, hybrid, or onsite needs. Our contracted professionals are well-compensated to ensure top talent. Long-term partners receive discounted rates. Above all, our mission is your organizational empowerment – freeing you to focus on core priorities while we handle supplemental staffing demands.
                                 </p>
-                                <div className="row gy-4">
+                                <div className="row gy-5">
                                     <div className="col-5">
                                         <div className="wcu d-flex align-items-center gap-4">
                                             <Image src="/images/crown2.png" width={40} height={40} alt="" />
