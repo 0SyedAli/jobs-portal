@@ -434,8 +434,32 @@ textarea {
   margin: 60px 0;
 }
 
+.dark-cta-section.home-dark-cta-section {
+  background-color: transparent;
+  background-image: url("/images/home_sec5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .dark-cta-section img {
   border-radius: 30px;
+}
+
+.js_dc_section {
+  padding: 20px 50px;
+}
+
+.js_dc_section img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.js-our-scam .section-title {
+  color: #000;
+}
+
+.js-our-scam p {
+  color: #000;
 }
 
 /* --- Evidence Based Features Section Styles (Second appearance) --- */
@@ -585,6 +609,7 @@ textarea {
   font-weight: bold;
   margin-bottom: 15px;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .about-wrapper .how-it-works p.subtitle {
@@ -630,6 +655,11 @@ textarea {
 
 .about-wrapper .how-step.highlight .hit-icon {
   background-color: #404C9B;
+}
+
+.about-wrapper .privacy-hiw .how-step.highlight .hit-icon {
+  background-color: #E95C4B;
+
 }
 
 .about-wrapper .how-step.highlight img {
@@ -792,6 +822,7 @@ textarea {
 .educators-wrapper .hero-section h1 {
   font-size: 60px;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 /* Talent Section */
@@ -978,6 +1009,7 @@ textarea {
   font-weight: 700;
   margin-bottom: 20px;
   font-family: var(--font-figtree);
+  text-transform: capitalize;
 }
 
 .contact-section p {
@@ -1097,6 +1129,31 @@ textarea {
 .mentor_seciont p,
 .mentor_seciont a {
   color: #FFF;
+}
+
+.pp-mentor-section {
+  background-color: transparent;
+  background-image: linear-gradient(#202544ef, #202544ef), url("/images/pms-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+.pp-mentor-section img {
+  border-radius: 10px;
+  height: 448px;
+  width: 363px;
+}
+
+.pp-mentor-section .pms-img2 {
+  border-radius: 10px;
+  height: 175px;
+  width: 240px;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  right: 300px;
 }
 
 /* jobs-listing.css */
@@ -1564,6 +1621,70 @@ footer .btn-primary {
   color: #FFF;
 }
 
+.about-wrapper .position-card {
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px 2px #cfcfcf;
+}
+
+.about-wrapper .featured-card {
+  background: #1E265D;
+  background: linear-gradient(90deg, rgba(30, 38, 93, 1) 0%, rgba(32, 37, 68, 1) 100%);
+}
+
+/* Style for the Regular (White) Cards */
+.about-wrapper .regular-card {
+  background-color: white;
+}
+
+/* Style for the Position Title */
+.about-wrapper .position-title {
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+/* Color override for the title inside the dark blue card */
+.about-wrapper .featured-card .position-title {
+  color: white;
+}
+
+/* Color override for the title inside the white card */
+.about-wrapper .regular-card .position-title {
+  color: #1a1a1a;
+}
+
+/* Style for the Position Details (Location/Service) */
+.about-wrapper .position-details {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+/* Color override for details inside the dark blue card */
+.about-wrapper .featured-card .position-details {
+  color: #e0e0e0;
+}
+
+/* Color override for details inside the white card */
+.about-wrapper .regular-card .position-details {
+  color: #666;
+}
+
+/* Adjustments for the extra-long title in Position 5 if needed */
+.about-wrapper .long-title {
+  /* Example adjustment for long titles */
+  line-height: 1.2;
+}
+
 .btn-theme2 {
   border: 1px solid #FFF;
   color: #FFF;
@@ -1577,6 +1698,15 @@ footer .btn-primary {
   background-color: #E95C4B;
   font-size: 14px;
   padding: 10px 15px;
+}
+
+.btn-theme4 {
+  border: 1px solid #202544;
+  color: #FFF;
+  background-color: #202544;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: 600;
 }
 
 .op_terms .section-title {

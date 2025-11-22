@@ -102,24 +102,37 @@ export default function Educators() {
                 {/* Dark CTA Section */}
                 <section>
                     <div className="container">
-                        <div className="dark-cta-section text-white">
-                            <div className="row align-items-center">
-                                <div className="col-6">
+                        <div className="dark-cta-section js_dc_section text-white">
+                            <div className="row align-items-center justify-content-between">
+                                <div className="col-7">
                                     <h2 className="section-title">
-                                        Discover Our <br />Exceptional Business <br />Solutions
+                                        what should you do if you encounter a job scam?
                                     </h2>
-                                    <p className="mb-4">
-                                        Solutions that enhance efficiency, attract top talent, and improve the overall recruitment process.
-                                    </p>
-                                    <Link href="/jobs" className="btn btn-primary px-3">Search Job</Link>
+                                    <p className="mb-2">Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam.</p>
+                                    <p>Facilisi luctus neque ligula mauris senectus ac nam netus massa. A vivamus ultrices neque neque iaculis tellus id nec. Tristique diam at elementum vel eu enim. Tristique eget ipsum nisl facilisis scelerisque amet. Id viverra nulla penatibus malesuada adipiscing tellus in. Et sem vitae odio proin pulvinar vulputate.</p>
                                 </div>
-                                <div className="col-6 text-center">
-                                    <Image src="/images/unnamed2.png" width={320} height={320} alt="" />
+                                <div className="col-4 text-center">
+                                    <Image src="/images/wsjs-im5.jpg" width={320} height={448} alt="" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+                {/* Evidence Based Features */}
+                <div className="our-professionals js-our-scam " style={{ padding: "0px 0px 50px" }}>
+                    <div className="container ">
+                        <div className="row align-items-center justify-content-center pb-3">
+                            <div className="col-lg-9 mb-4 mb-lg-0 text-center">
+                                <h2 className="section-title">
+                                    finding a real opportunity
+                                </h2>
+                                <p className="mb-0">
+                                    Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam Facilisi luctus neque ligula mauris senectus ac nam netus massa. A vivamus ultrices neque neque iaculis tellus id nec. Tristique diam at elementum vel eu enim. Tristique eget ipsum nisl facilisis scelerisque amet. Id viverra nulla penatibus malesuada adipiscing tellus in. Et sem vitae odio proin pulvinar vulputate.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <Footer />

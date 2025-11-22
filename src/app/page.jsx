@@ -170,19 +170,16 @@ export default function Home() {
       {/* Dark CTA Section */}
       <section>
         <div className="container">
-          <div className="dark-cta-section text-white">
+          <div className="dark-cta-section home-dark-cta-section text-white">
             <div className="row align-items-center">
-              <div className="col-6">
+              <div className="col-5">
                 <h2 className="section-title">
                   Discover Our <br />Exceptional Business <br />Solutions
                 </h2>
                 <p className="mb-4">
                   Solutions that enhance efficiency, attract top talent, and improve the overall recruitment process.
                 </p>
-                <Link href="/jobs" className="btn btn-primary px-3">Search Job</Link>
-              </div>
-              <div className="col-6 text-center">
-                <Image src="/images/unnamed2.png" width={320} height={320} alt="" />
+                <Link href="/jobs" className="btn btn-theme4">Search Job</Link>
               </div>
             </div>
           </div>

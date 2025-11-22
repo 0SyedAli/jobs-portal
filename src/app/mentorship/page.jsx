@@ -20,8 +20,8 @@ export default function Educators() {
                 <div className="evidence-approach-section mentor_seciont">
                     <div className="container">
                         <div className="row  align-items-center">
-                            <div className="col-lg-6 text-center">
-                                <Image src="/images/8bd5c3440cc0d4defeee6ae720b5004c.jpg" className="object-fit-contain w-100" width={500} height={500} alt="" />
+                            <div className="col-lg-6 text-center pe-5">
+                                <Image src="/images/mentor-sec1.jpg" className="object-fit-cover w-100 rounded" width={500} height={500} alt="" />
                             </div>
                             <div className="col-lg-6">
                                 <h2 className="section-title pe-5 mb-2" style={{ fontSize: "50px" }}>
@@ -30,7 +30,7 @@ export default function Educators() {
                                 <p className="mb-4">
                                     Considering venturing into entrepreneurship? Take advantage of our comprehensive mentorship programs designed to support you every step of the way on your entrepreneurial journey. Our distinctive approach involves providing personalized guidance and practical resources to empower you to achieve independence and success. Through our program, you’ll receive step-by-step assistance tailored to your specific needs, ensuring that you gain a thorough understanding of key concepts and develop the necessary skills to reach your goals. Join us as we walk alongside you, offering invaluable mentorship and equipping you with the tools and knowledge needed to navigate the challenges of starting and growing your own business.
                                 </p>
-                                <Link href="" className="text-decoration-underline" style={{ color: "#FFF", fontWeight: "500" }}>Learn More</Link>
+                                <Link href="#!" className="text-decoration-underline" style={{ color: "#E95C4B", fontWeight: "500" }}>Learn More</Link>
                             </div>
 
                         </div>
