@@ -28,7 +28,7 @@ export default function Educators() {
                                     with you in mind
                                 </h2>
                                 <p className="mb-4">
-                                    Considering venturing into entrepreneurship? Take advantage of our comprehensive mentorship programs designed to support you every step of the way on your entrepreneurial journey. Our distinctive approach involves providing personalized guidance and practical resources to empower you to achieve independence and success. Through our program, you’ll receive step-by-step assistance tailored to your specific needs, ensuring that you gain a thorough understanding of key concepts and develop the necessary skills to reach your goals. Join us as we walk alongside you, offering invaluable mentorship and equipping you with the tools and knowledge needed to navigate the challenges of starting and growing your own business.
+                                    At People Index Hub, we are committed to building an inclusive digital environment where every individual can access opportunities with ease and confidence. Our platform is thoughtfully designed to support users with diverse abilities by offering clear guidance, intuitive navigation, and helpful resources throughout their journey. We aim to empower you with meaningful tools that promote independence, equal access, and a deeper understanding of employment and career options. With features created to accommodate different needs, you receive personalized assistance that aligns with your goals. Join us as we work together to create a supportive space where everyone can thrive and pursue their ambitions.
                                 </p>
                             </div>
 
@@ -37,26 +37,29 @@ export default function Educators() {
                 </div>
 
                 {/* Evidence Based Features */}
-                <div className="our-professionals mentor-our text-white" style={{backgroundColor:"#F0F0F0"}}>
+                <div className="our-professionals mentor-our text-white" style={{ backgroundColor: "#F0F0F0" }}>
                     <div className="container ">
                         <div className="row align-items-center justify-content-center pb-3">
                             <div className="col-lg-12 mb-4 mb-lg-0 text-center">
-                                <div className="row justify-content-center mb-5">
-                                    <div className="col-8">
+                                <div className="row justify-content-center mb-4">
+                                    <div className="col-lg-8">
                                         <h2 className="section-title text-black ">
                                             Accessibility Statement
                                         </h2>
                                         <p className="mb-0 text-black fw-semibold">
-                                            Seeking staffing solutions or want to contract your expertise? Connect with us today! We’ll discuss how our tailored services empower your organization.
+                                            Seeking staffing solutions or want to contract your expertise? Connect with us today!
+                                        </p>
+                                        <p className="mb-0 text-black fw-semibold">
+                                            We’ll discuss how our tailored services empower your organization.
                                         </p>
                                     </div>
                                 </div>
                                 <p className="mb-4 text-black">
-                                    Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam.
-                                    Facilisi luctus neque ligula mauris senectus ac nam netus massa. A vivamus ultrices neque neque iaculis tellus id nec. Tristique diam at elementum vel eu enim. Tristique eget ipsum nisl facilisis scelerisque amet. Id viverra nulla penatibus malesuada adipiscing tellus in. Et sem vitae odio proin pulvinar vulputate.
+                                    We’re dedicated to ensuring our platform remains accessible for users of all abilities by offering adaptive features that support smooth navigation and interaction. Our commitment includes creating clear content, simplifying user processes, and improving usability to ensure that everyone can access career information and opportunities confidently.
                                 </p>
-                                <p className="mb-0 text-black">Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam.
-                                    Facilisi luctus neque ligula mauris senectus ac nam netus massa. A vivamus ultrices neque neque iaculis tellus id nec. Tristique diam at elementum vel eu enim. Tristique eget ipsum nisl facilisis scelerisque amet. Id viverra nulla penatibus malesuada adipiscing tellus in. Et sem vitae odio proin pulvinar vulputate.</p>
+                                <p className="mb-4 text-black">We continually refine our tools to support accessibility needs through thoughtful design and helpful guidance. Our aim is to provide consistent access to employment resources, clear job details, and supportive features that enhance your overall experience. We strive to create an inclusive space that empowers individuals to explore opportunities with greater ease.</p>
+                                <p className="mb-4 text-black">We believe accessibility is essential for equal opportunity, so our platform includes features that enhance readability and interaction for all users. From organized layouts to intuitive navigation, our goal is to deliver an experience that supports independent access to career pathways and essential employment resources.</p>
+                                <p className="mb-0 text-black">Our ongoing focus is to strengthen accessibility across the platform by improving clarity, functionality, and user support tools. We aim to ensure everyone can explore job options comfortably and confidently. Through consistent updates and enhancements, we work to maintain a welcoming experience that meets the needs of diverse users everywhere.</p>
                             </div>
                         </div>
                     </div>

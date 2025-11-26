@@ -8,7 +8,11 @@ export default function Contact() {
     const [formData, setFormData] = useState({
         firstName: "",
         lastName: "",
+        phone: "",
         email: "",
+        zipCode: "",
+        company: "",
+        jobTitle: "",
         message: "",
     });
 
@@ -38,10 +42,11 @@ export default function Contact() {
                         <div className="row align-items-center">
                             {/* Left Side */}
                             <div className="col-lg-6 mb-5 mb-lg-0">
-                                <h2>You Will Grow. You Will Succeed. We Promise That</h2>
-                                <p>
-                                    Want to focus on core priorities? Let’s talk about how our staffing solutions can support your educational organization.
+                                <h2>The Benefits Of Building Your Resume With Us</h2>
+                                <p className="mb-3">
+                                    Creating a strong resume is the first step toward unlocking new opportunities. At People Index Hub we help you highlight your strengths present your experience with clarity and showcase your full potential to employers. Our goal is to make sure your resume reflects who you are what you can achieve and the value you bring to every professional environment.
                                 </p>
+                                <p>A polished resume gives you a competitive advantage increases visibility in hiring searches and positions you as a confident applicant.</p>
                                 <div className="row">
                                     <div className="col-lg-5 contact-info">
                                         <Image src="/images/phone.png" className="object-fit-contain mb-2" width={25} height={25} alt="" />
@@ -71,7 +76,7 @@ export default function Contact() {
                                         <p>Nibh dis faucibus proin lacus tristique</p>
                                     </div>
                                     <form onSubmit={handleSubmit}>
-                                        <div className="row mb-4">
+                                        <div className="row gy-4 mb-4">
                                             <div className="col-md-6">
                                                 <label className="form-label">First Name</label>
                                                 <input
@@ -94,30 +99,72 @@ export default function Contact() {
                                                     onChange={handleChange}
                                                 />
                                             </div>
-                                        </div>
-
-                                        <div className="mb-4">
-                                            <label className="form-label">Email Address</label>
-                                            <input
-                                                type="email"
-                                                className="form-control"
-                                                name="email"
-                                                placeholder="Your E-mail address"
-                                                value={formData.email}
-                                                onChange={handleChange}
-                                            />
-                                        </div>
-
-                                        <div className="mb-4">
-                                            <label className="form-label">Message</label>
-                                            <textarea
-                                                className="form-control"
-                                                name="message"
-                                                rows={4}
-                                                placeholder="Your message..."
-                                                value={formData.message}
-                                                onChange={handleChange}
-                                            ></textarea>
+                                            <div className="col-md-12">
+                                                <label className="form-label">Email</label>
+                                                <input
+                                                    type="email"
+                                                    className="form-control"
+                                                    name="email"
+                                                    placeholder="Your E-mail address"
+                                                    value={formData.email}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-md-6">
+                                                <label className="form-label">Phone Number</label>
+                                                <input
+                                                    type="tel"
+                                                    className="form-control"
+                                                    name="phone"
+                                                    placeholder="Your Phone Number"
+                                                    value={formData.phone}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-md-6">
+                                                <label className="form-label">Zip Code</label>
+                                                <input
+                                                    type="number"
+                                                    className="form-control"
+                                                    name="zipCode"
+                                                    placeholder="Your Zip Code"
+                                                    value={formData.zipCode}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-md-6">
+                                                <label className="form-label">Company</label>
+                                                <input
+                                                    type="text"
+                                                    className="form-control"
+                                                    name="company"
+                                                    placeholder="Enter Company Name"
+                                                    value={formData.company}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-md-6">
+                                                <label className="form-label">Job Title</label>
+                                                <input
+                                                    type="text"
+                                                    className="form-control"
+                                                    name="jobTitle"
+                                                    placeholder="Enter Job Title"
+                                                    value={formData.jobTitle}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-md-12">
+                                                <label className="form-label">Tell Us About Yourself</label>
+                                                <textarea
+                                                    className="form-control"
+                                                    name="message"
+                                                    rows={4}
+                                                    placeholder="Your message..."
+                                                    value={formData.message}
+                                                    onChange={handleChange}
+                                                ></textarea>
+                                            </div>
                                         </div>
 
                                         <button type="submit" className="btn btn-primary">
@@ -164,20 +211,22 @@ export default function Contact() {
                     </div>
                 </div>
 
-                {/* CTA Section */}
-                <div className="cta-section">
+                {/* need resume */}
+                <section className="need-resume-section">
                     <div className="container">
-                        <div className="row">
-                            <div className="col-9">
-                                <h2>Interested? Let's Talk!</h2>
-                                <p>
-                                    Seeking staffing solutions or want to contract your expertise? Connect with us today! We’ll discuss
-                                    how our tailored services empower your organization.
-                                </p>
+                        <div className="row align-items-center">
+                            <div className="col-7">
+                                <h2 className="section-title">
+                                    need help with your resume?
+                                </h2>
+                                <p className="mb-0">Lorem ipsum dolor sit amet consectetur. Eu ante cursus justo lectus ac mauris Venenatis vel risus pretium diam aliquam.</p>
+                            </div>
+                            <div className="col-lg-5 text-end">
+                                <Image src="/images/need-resume.png" className="" width={360} height={313} alt="" />
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
             <Footer />
         </>

@@ -20,7 +20,7 @@ export default function Home() {
           {/* Search Bar */}
           <div className="row justify-content-center mb-4">
             <div className="col-lg-10 col-xl-9 col-xxl-8">
-              <div className="input-group">
+              <div className="input-group input-group-search">
                 <input type="text" className="form-control" placeholder="Job Title or Company" />
                 <select className="form-select search-select">
                   <option>Select Location</option>
@@ -93,12 +93,7 @@ export default function Home() {
             </div>
             <div className="col-lg-6 mb-4 mb-lg-0">
               <p className="mb-0">
-                The Community Wellness Project is a specialized professional and educational staffing and recruitment
-                firm dedicated to meeting business' unique needs.
-              </p>
-              <p>
-                Our experienced team leverages industry expertise and a deep understanding of staffing dynamics to
-                connect the right talent with the right organization.
+                At People Index Hub we provide strategic recruitment solutions that help organizations discover the right people with confidence and clarity. Our team combines industry knowledge with advanced talent insights to deliver staffing support that drives improvement, inspiration, and excellence. Whether you operate in education, corporate environments, hospitality, technology, construction, or any other field, our goal is to enhance your hiring process through trusted and effective recruitment services.
               </p>
             </div>
           </div>
@@ -157,8 +152,7 @@ export default function Home() {
                 Evidence Based Approach to Recruitment
               </h2>
               <p className="mb-5">
-                By adopting an evidence-based approach, organizations can make more informed and effective hiring
-                decisions, ultimately leading to better business outcomes and stronger leadership teams.
+                By using data informed hiring practices, organizations can make stronger and more informed decisions. This method improves long term outcomes, enhances leadership teams, and helps employers select candidates who bring meaningful value to their mission.
               </p>
               <Link href="/jobs" className="btn btn-primary me-4">Search Job</Link>
               <Link href="#" className="text-decoration-underline" style={{ color: "#202544", fontWeight: "500" }}>Learn More</Link>
@@ -177,7 +171,7 @@ export default function Home() {
                   Discover Our <br />Exceptional Business <br />Solutions
                 </h2>
                 <p className="mb-4">
-                  Solutions that enhance efficiency, attract top talent, and improve the overall recruitment process.
+                  Explore staffing services that increase efficiency, attract top talent, and strengthen the overall recruitment journey within your organization.
                 </p>
                 <Link href="/jobs" className="btn btn-theme4">Search Job</Link>
               </div>
@@ -195,7 +189,7 @@ export default function Home() {
                 Evidence Based Approach to Recruitment
               </h2>
               <p className="mb-0">
-                By adopting an evidence-based approach, organizations can make more informed and effective hiring decisions, ultimately leading to better business outcomes and stronger leadership teams.
+                Using this approach helps organizations make informed and effective hiring decisions. It leads to better outcomes, more confident leadership teams, and a stronger understanding of what qualities create long lasting success.
               </p>
             </div>
           </div>
@@ -205,25 +199,25 @@ export default function Home() {
             <div className="col-sm-3">
               <div className="category-card">
                 <h6 className="category-title">Data-Driven Decision Making</h6>
-                <p>By utilizing historical data, performance metrics, and predictive analytics to identify candidates who are most likely to succeed in a role, we minimize personal bias by making decisions based on objective criteria.</p>
+                <p>We use performance reviews, historical data, and predictive evaluations to recognize candidates who have the skills and mindset to thrive. This approach supports smart hiring decisions based on objective insights.</p>
               </div>
             </div>
             <div className="col-sm-3">
               <div className="category-card">
                 <h6 className="category-title">Comprehensive Evaluation</h6>
-                <p>Utilizing assessment, in-depth interviews, psychometric tests, and situational judgment tests to evaluate candidates’ leadership skills, strategic vision, and cultural fit.</p>
+                <p>Through interviews, assessments, skill reviews, and situational testing, we gain a clear understanding of each candidates strengths, experience, and potential.</p>
               </div>
             </div>
             <div className="col-sm-3">
               <div className="category-card">
                 <h6 className="category-title">Balanced Data & Intuition</h6>
-                <p>While data provides valuable insights, intuition and experience also play a crucial role in assessing cultural fit and leadership potential. A hybrid approach that combines both data and intuition can lead to more successful hires.</p>
+                <p>While data provides valuable insight, experience and intuition also play an important role in identifying cultural fit and leadership qualities. Our hiring framework blends both to support more successful outcomes.</p>
               </div>
             </div>
             <div className="col-sm-3">
               <div className="category-card">
                 <h6 className="category-title">Diverse Candidate Pool</h6>
-                <p>Ensure that the recruitment process promotes diversity and inclusion by building diverse candidate pools and implementing strategies to attract underrepresented group</p>
+                <p>We work to ensure the recruitment process remains inclusive and fair by promoting diversity and encouraging applications from underrepresented groups.</p>
               </div>
             </div>
           </div>
@@ -244,13 +238,15 @@ export default function Home() {
               {
                 img: "/images/blog1.jpg",
                 date: "30 March 2024",
-                title: "Revitalizing Workplace Morale: Innovative Tactics for Boosting Employee Engagement in 2024",
+                title: "Thirty March Two Thousand Twenty Four",
+                para: "Revitalizing Workplace Morale Innovative Tactics For Boosting Employee Engagement in Two Thousand Twenty Four",
                 label: "news"
               },
               {
                 img: "/images/blog2.jpg",
                 date: "30 March 2024",
-                title: "How To Avoid The Top Six Most Common Job Interview Mistakes",
+                title: "Thirty March Two Thousand Twenty Four",
+                para: "How To Avoid The Top Six Most Common Job Interview Mistakes",
                 label: "blog"
               },
             ].map((post, idx) => (
@@ -261,6 +257,7 @@ export default function Home() {
                   <div className="b_content">
                     <small className="blog-date">{post.date}</small>
                     <h6 className="blog-title">{post.title}</h6>
+                    <p className="blog-para">{post.para}</p>
                     <a href="#" className="read-more-link">
                       Read more →
                     </a>
@@ -272,7 +269,7 @@ export default function Home() {
         </div>
       </div>
 
-       <Footer />
+      <Footer />
     </>
   );
 }

@@ -28,10 +28,10 @@ export default function Educators() {
                                         Talent That Teaches, Inspires, <br /> and Leads
                                     </h2>
                                     <p className="mb-2">
-                                        Our team consists of passionate educational professionals driving our mission. Educational Specialists assess and support student needs across academics, social-emotional skills, and behavior to inform individualized education plans. Licensed School Psychologists lend expertise in student learning, mental health, behavior analysis, and educational systems. Instructional Assistants provide tailored intervention support through push-in and pull-out models under teacher supervision.
+                                        Our team is made up of passionate educational professionals who bring dedication and purpose to every learning environment. Educational Specialists support student growth across academics social emotional skills and behavior to guide the creation of individualized learning plans. Licensed School Psychologists provide expertise in student development mental health assessment behavior analysis and modern educational practices. Instructional Assistants deliver focused support through structured teaching models that help students progress with confidence.
                                     </p>
                                     <p>
-                                        Whether virtual, hybrid, or onsite, our contractors receive competitive compensation and long-term incentives. Through our training and resources, they crave flexibility while upholding quality. Our employees are the backbone, allowing educational organizations to reallocate resources to core priorities. With their skills and our staffing solutions, we empower communities.
+                                        Whether classes are conducted virtually in person or through blended formats our contractors receive competitive compensation and long term incentives. With the training and resources we provide they enjoy the freedom to grow while maintaining excellence. Our educators serve as the foundation of every program allowing schools and organizations to allocate their resources more efficiently. Through their skills and our staffing solutions we help communities strengthen learning outcomes and empower future success.
                                     </p>
                                 </div>
                                 <Image src="/images/ed-sec1-2.png" className="w-100 h-auto" width={500} height={300} alt="" />
@@ -50,9 +50,9 @@ export default function Educators() {
                                 <h2 className="section-title">
                                     Our Professionals
                                 </h2>
-                                <p className="mb-0">
+                                {/* <p className="mb-0">
                                     Meet the dedicated professionals behind the Community Wellness Project, a team of experts passionate about empowering educational institutions to thrive and making a lasting impact on the lives of students.
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -61,19 +61,19 @@ export default function Educators() {
                             <div className="col-sm-4">
                                 <div className="category-card active">
                                     <h6 className="category-title">Speech Pathologists</h6>
-                                    <p>Experts in communication disorders, they assess, diagnose, and treat speech, language, and swallowing difficulties, empowering individuals to communicate effectively.</p>
+                                    <p>Experts in communication disorders they assess diagnose and treat speech language and swallowing challenges. Their support helps individuals communicate more effectively and improve daily interactions.</p>
                                 </div>
                             </div>
                             <div className="col-sm-4">
                                 <div className="category-card">
-                                    <h6 className="category-title">Speech Pathologists</h6>
-                                    <p>Experts in communication disorders, they assess, diagnose, and treat speech, language, and swallowing difficulties, empowering individuals to communicate effectively.</p>
+                                    <h6 className="category-title">Occupational Therapists</h6>
+                                    <p>Focused on strengthening individuals ability to perform daily tasks they provide guided interventions that enhance physical cognitive and social functioning for improved independence and quality of life.</p>
                                 </div>
                             </div>
                             <div className="col-sm-4">
                                 <div className="category-card">
-                                    <h6 className="category-title">Speech Pathologists</h6>
-                                    <p>Experts in communication disorders, they assess, diagnose, and treat speech, language, and swallowing difficulties, empowering individuals to communicate effectively.</p>
+                                    <h6 className="category-title">Physical Therapists</h6>
+                                    <p>Dedicated to restoring mobility and strength they use specific exercises and therapeutic techniques that reduce pain improve movement and promote overall well being after injury or illness.</p>
                                 </div>
                             </div>
 
@@ -87,7 +87,7 @@ export default function Educators() {
                         <div className="d-flex justify-content-center align-items-center mb-4">
                             <div className="col-lg-9 mb-4 mb-lg-0 text-center">
                                 <h2 className="section-title">News and Blog</h2>
-                                <p className="mb-0">Meet the dedicated professionals behind the Community Wellness Project, a team of experts passionate about empowering educational institutions to thrive and making a lasting impact on the lives of students.</p>
+                                {/* <p className="mb-0">Meet the dedicated professionals behind the Community Wellness Project, a team of experts passionate about empowering educational institutions to thrive and making a lasting impact on the lives of students.</p> */}
                             </div>
                         </div>
                         <div className="row g-4">
@@ -95,13 +95,15 @@ export default function Educators() {
                                 {
                                     img: "/images/blog2.jpg",
                                     date: "30 March 2024",
-                                    title: "Revitalizing Workplace Morale: Innovative Tactics for Boosting Employee Engagement in 2024",
+                                    title: "Thirty March Two Thousand Twenty Four",
+                                    para: "Revitalizing Workplace Morale Innovative Tactics For Boosting Employee Engagement in Two Thousand Twenty Four",
                                     label: "news"
                                 },
                                 {
                                     img: "/images/blog1.jpg",
                                     date: "30 March 2024",
-                                    title: "How To Avoid The Top Six Most Common Job Interview Mistakes",
+                                    title: "Thirty March Two Thousand Twenty Four",
+                                    para: "How To Avoid The Top Six Most Common Job Interview Mistakes",
                                     label: "blog"
                                 },
                             ].map((post, idx) => (

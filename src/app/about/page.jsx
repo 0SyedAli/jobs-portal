@@ -26,13 +26,13 @@ export default function About() {
                                     Empowering Educational & Personnel Staffing Solutions
                                 </h2>
                                 <p className="mb-2">
-                                    Our flexible employment options are designed to cater to the specific needs of our clients. Whether you require interim executives, project-based specialists, or permanent educational leaders, The Community Wellness Project delivers the talent you need, when and where you need it.
+                                    At People Index Hub, we provide flexible and reliable staffing solutions built to meet the evolving needs of organizations worldwide. Whether you’re looking for interim executives, specialized project-based professionals, or long-term academic and administrative talent, our platform connects you with the right people at the right time.
                                 </p>
                                 <p className="mb-2">
-                                    We prioritize client success by managing the entire recruitment process. Our dedicated team ensures seamless integration of new hires, allowing organizations to focus on their strategic goals. We believe in building long-term partnerships with our clients, providing continuous support and adapting to evolving needs.
+                                    Our approach focuses on simplifying the recruitment journey. We handle the sourcing, screening, and coordination of new hires, enabling you to focus on strategic goals while we support your growth. Through transparent processes and long-term partnerships, we help you adapt to industry shifts and remain competitive.
                                 </p>
                                 <p className="mb-5">
-                                    By partnering with The Community Wellness Project, you are investing in your organization’s success through empowered leadership and skilled personnel. Our commitment to excellence and client satisfaction drives us to deliver the best staffing solutions in the industry
+                                    By choosing People Index Hub, you strengthen your workforce with skilled professionals committed to excellence. Our dedication to quality service and consistent support empowers organizations to thrive and maintain high standards of performance.
                                 </p>
                             </div>
                         </div>
@@ -49,10 +49,10 @@ export default function About() {
 
                         <div className="row g-3">
                             {[
-                                { icon: "/images/user2.png", title: "Create Account", desc: "Nullam sed volutpat nulla sed et ante accumsan. Consectetur Fringilla sed tempore" },
-                                { icon: "/images/file2.png", title: "Upload Resume", desc: "Nullam sed volutpat nulla sed et ante accumsan. Consectetur Fringilla sed tempore" },
-                                { icon: "/images/o_bag.png", title: "Find Jobs", desc: "Nullam sed volutpat nulla sed et ante accumsan. Consectetur Fringilla sed tempore" },
-                                { icon: "/images/check2.png", title: "Apply Job", desc: "Nullam sed volutpat nulla sed et ante accumsan. Consectetur Fringilla sed tempore" },
+                                { icon: "/images/user2.png", title: "Create Account", desc: "Sign up in minutes and unlock your personalized dashboard designed to support your hiring or job-search goals." },
+                                { icon: "/images/file2.png", title: "Upload Resume", desc: "Share your experience and skills. Our smart tools help present your resume professionally and effectively." },
+                                { icon: "/images/o_bag.png", title: "Find Jobs", desc: "Explore verified job opportunities tailored to your expertise, industry interests, and preferred location." },
+                                { icon: "/images/check2.png", title: "Apply Job", desc: "Submit your application instantly and monitor your progress as you move toward your next career opportunity." },
                             ].map((step, idx) => (
                                 <div key={idx} className="col-md-6 col-lg-3">
                                     <div className={`how-step ${idx === 0 ? "highlight" : ""}`}>
@@ -71,18 +71,18 @@ export default function About() {
                 {/* FAQ Section */}
                 <div className="faq-section">
                     <div className="container">
-                        <h2>Frequently Asked Questions</h2>
-                        <p className="subtitle">
+                        <h2 className="mb-4">Frequently Asked Questions</h2>
+                        {/* <p className="subtitle">
                             At vix lobortis premium incissor and local at denerum aliquat.
-                        </p>
+                        </p> */}
 
                         <div className="accordion" id="faqAccordion">
                             {[
-                                { q: "Can I upload a CV?", a: "Nunc sed ad purus. Nisi sis lobortis proin locus torques, sit ipse maleada ad sed in. Pislis du ultricies a sed volutpat. Com iaque velit volutpat com varius..." },
-                                { q: "How long will the recruitment process take?", a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-                                { q: "Do you recruit for Graduates, Apprentices and Students?", a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-                                { q: "What does the recruitment and selection process involve?", a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-                                { q: "Can I receive notifications for any future jobs that may interest me?", a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+                                { q: "Can I upload a CV?", a: "Yes, you can upload your CV directly to your People Index Hub profile. It’s secure, accessible anytime, and helps us match you with roles that fit your experience. Our system supports multiple file formats and ensures your resume is stored safely for future applications." },
+                                { q: "How long will the recruitment process take?", a: "Recruitment timelines vary depending on the role and employer needs. Some positions move quickly, while others require several stages. We’ll keep you updated throughout the process." },
+                                { q: "Do you recruit for Graduates, Apprentices and Students?", a: "The process may include application review, skills assessments, interviews, and background verification depending on the employer." },
+                                { q: "What does the recruitment and selection process involve?", a: "Yes. We support early-career candidates through job placements, internships, apprenticeships, and entry-level professional roles." },
+                                { q: "Can I receive notifications for any future jobs that may interest me?", a: "Absolutely. Enable job alerts to receive personalized updates on new openings that match your profile." },
                             ].map((item, idx) => (
                                 <div key={idx} className="accordion-item">
                                     <h2 className="accordion-header">
@@ -128,8 +128,11 @@ export default function About() {
                                 <h2 className="section-title">
                                     Why Choose Us?
                                 </h2>
+                                <p className="mb-2">
+                                    Partnering with People Index Hub means gaining access to a staffing ally invested in your success. We provide dependable hiring solutions designed for virtual, hybrid, and onsite environments. Every applicant is vetted to ensure quality, and our partners benefit from consistent support and tailored recruitment services.
+                                </p>
                                 <p className="mb-5">
-                                    When you partner with the Community Wellness Project, you gain a staffing ally invested in your success and the strength of your community. We provide tailored staffing solutions that flex to your virtual, hybrid, or onsite needs. Our contracted professionals are well-compensated to ensure top talent. Long-term partners receive discounted rates. Above all, our mission is your organizational empowerment – freeing you to focus on core priorities while we handle supplemental staffing demands.
+                                    Our mission is to remove the complexity from hiring by offering strategic, end-to-end workforce guidance. Whether you’re scaling teams or filling specialized roles, we empower you with trusted talent, streamlined processes, and technology that simplifies every step.
                                 </p>
                                 <div className="row gy-5">
                                     <div className="col-5">
@@ -153,7 +156,7 @@ export default function About() {
                                     <div className="col-5">
                                         <div className="wcu d-flex align-items-center gap-4">
                                             <Image src="/images/batch2.png" width={40} height={40} alt="" />
-                                            <h3>Top Talents</h3>
+                                            <h3>Top Talent Network</h3>
                                         </div>
                                     </div>
                                 </div>

@@ -249,11 +249,11 @@ textarea {
   margin-bottom: 40px;
 }
 
-.hero-section .input-group {
+.input-group-search {
   height: 80px;
 }
 
-.hero-section .input-group input {
+.input-group-search input {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   padding-left: 40px;
@@ -261,20 +261,20 @@ textarea {
   font-weight: 600;
 }
 
-.hero-section .input-group input::placeholder,
-.hero-section .input-group select {
+.input-group-search input::placeholder,
+.input-group-search select {
   color: #00000080;
   font-weight: 600;
 }
 
-.hero-section .input-group button {
+.input-group-search button {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   padding-left: 40px;
   padding-right: 40px;
 }
 
-.hero-section .input-group button span {
+.input-group-search button span {
   color: #FFF;
   font-size: 20px;
   margin-right: 7px;
@@ -1059,7 +1059,11 @@ textarea {
   border-radius: 5px;
   border-color: #FFF;
   padding: 10px 15px;
+  color: #000;
+}
 
+.contact-form .form-control:focus-visible {
+  box-shadow: none;
 }
 
 .contact-form .form-control::placeholder {
@@ -1718,8 +1722,140 @@ footer .btn-primary {
 }
 
 .op_terms_bottom {
-  background-color: #F0F0F0;
+  background-color: #FFF;
   padding: 50px 0;
+}
+
+.check-salary-secion {
+  padding: 100px 0;
+  background-color: #202544;
+  color: #FFF;
+}
+
+.css_body h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-family: var(--font-figtree);
+}
+
+.css_body input {
+  border-radius: 0;
+}
+
+.css_body .input-group-search {
+  height: 90px;
+  border: 1px solid #FFF;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+
+
+.igs_inner label {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: var(--font-figtree);
+  text-align: left;
+  margin-bottom: 7px;
+}
+
+.css_body .input-group-search button {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: var(--font-figtree);
+}
+
+.cs_secion2 {
+  background-color: #F0F0F0;
+  padding: 70px 0;
+}
+
+.cs2_card {
+  padding: 50px;
+  border-radius: 20px;
+  background-color: #FFF;
+
+}
+
+.cs2_card h4 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: var(--font-figtree);
+}
+
+.tailored-slider-section {
+  background: #1E265D;
+  background: linear-gradient(90deg, rgba(30, 38, 93, 1) 0%, rgba(32, 37, 68, 1) 100%);
+}
+
+.tss_card {
+  background-color: #FFF;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.tss_card.active {
+  background-color: #202544;
+}
+
+.tss_card img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.tss_card h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: var(--font-figtree);
+  color: #000;
+  margin: 7px 0 10px 20px;
+
+}
+
+.need-resume-section {
+  background-color: #E95C4B;
+  color: #FFF;
+}
+
+.about-wrapper .featured-card2 {
+  border-radius: 20px;
+}
+
+.about-wrapper .featured-card2 h5 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.about-wrapper .featured-card2 p {
+  margin-bottom: 0;
+}
+
+.about-wrapper .regular-card p {
+  color: #000;
+}
+
+.cr_img2 {
+  position: absolute;
+  bottom: -10px;
+  right: -30px;
+  border-top-left-radius: 30px;
+  width: 320px;
+  height: 220px;
+  border: 2px solid #FFF;
+}
+
+.cr-gto-section {
+  background-image: linear-gradient(#202544ef, #202544ef), url("/images/cr-gto-bg.jpg");
+}
+
+.cr-gto-section h2 {
+  font-size: 50px;
 }
 
 @media (max-height:800px) {}

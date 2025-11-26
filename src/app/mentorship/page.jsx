@@ -27,8 +27,14 @@ export default function Educators() {
                                 <h2 className="section-title pe-5 mb-2" style={{ fontSize: "50px" }}>
                                     Mentorship
                                 </h2>
+                                <p className="mb-2">
+                                    Considering taking the next step in your professional journey Our mentorship programs are designed to give you the guidance support and clarity you need to grow with confidence. We focus on providing personalized direction that helps you strengthen your abilities understand complex concepts and develop the skills required to reach meaningful goals.
+                                </p>
+                                <p className="mb-2">
+                                    Through one on one guidance and structured learning we help you overcome challenges discover new possibilities and build a solid foundation for long term success. Our mentors walk beside you offering insight encouragement and practical strategies that support your development at every stage.
+                                </p>
                                 <p className="mb-4">
-                                    Considering venturing into entrepreneurship? Take advantage of our comprehensive mentorship programs designed to support you every step of the way on your entrepreneurial journey. Our distinctive approach involves providing personalized guidance and practical resources to empower you to achieve independence and success. Through our program, you’ll receive step-by-step assistance tailored to your specific needs, ensuring that you gain a thorough understanding of key concepts and develop the necessary skills to reach your goals. Join us as we walk alongside you, offering invaluable mentorship and equipping you with the tools and knowledge needed to navigate the challenges of starting and growing your own business.
+                                    Join us to gain valuable mentorship that elevates your potential opens new opportunities and prepares you to thrive in both your professional and personal life.
                                 </p>
                                 <Link href="#!" className="text-decoration-underline" style={{ color: "#E95C4B", fontWeight: "500" }}>Learn More</Link>
                             </div>
@@ -46,12 +52,12 @@ export default function Educators() {
                                     Interested? Let’s Talk!
                                 </h2>
                                 <p className="mb-0 text-black">
-                                    Seeking staffing solutions or want to contract your expertise? Connect with us today! We’ll discuss how our tailored services empower your organization.                                </p>
+                                    Seeking staffing solutions or looking to offer your expertise Connect with us today. We will help you explore how our tailored services can support your growth or strengthen your organization.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
 
             <Footer />

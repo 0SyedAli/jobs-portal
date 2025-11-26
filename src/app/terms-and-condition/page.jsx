@@ -1,10 +1,8 @@
 "use client"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-import Image from "next/image"
-import Link from "next/link"
 
-export default function Educators() {
+export default function TermsConditions() {
     return (
         <>
             <Navbar />
@@ -15,100 +13,139 @@ export default function Educators() {
                     <h1>Terms & Conditions</h1>
                 </section>
 
-                {/* Talent Section */}
-                {/* Evidence Based Approach */}
+                {/* Terms Header Section */}
                 <div className="evidence-approach-section mentor_seciont">
                     <div className="container">
-                        <div className="row  align-items-center">
+                        <div className="row align-items-center">
                             <div className="col-lg-12">
                                 <h2 className="section-title pe-5 mb-4" style={{ fontSize: "50px" }}>
                                     Terms & Conditions
                                 </h2>
-                                <p className="mb-0">Lorem ipsum dolor sit amet consectetur. Leo eget pellentesque elementum enim. Faucibus elementum justo et eu in dui in a ut. Vitae elementum ullamcorper habitasse aenean condimentum. Arcu pellentesque leo et eu nec. Ut rhoncus odio penatibus arcu eget aliquet. Tellus pretium turpis et ut faucibus id duis feugiat sit. Turpis fermentum feugiat bibendum nunc tempus. Non amet consequat eget ut curabitur in nisl auctor. Ornare non vitae purus orci id porttitor fames ac. Odio laoreet ut neque bibendum diam pulvinar. Quisque odio dui elit tellus morbi lectus. Porta rhoncus ut semper commodo massa ac pulvinar fames.</p>
-                                <p>Ultricies lobortis pulvinar semper mi ornare. Facilisis eu cursus donec a nulla massa eu. Viverra ullamcorper consequat mattis id feugiat. Quis cras neque justo consequat eu aenean ac. Consectetur lorem gravida commodo amet lectus. Metus pretium nisl dignissim lacus semper facilisis id. Sed aliquet eu dictum ut vitae scelerisque risus amet. Tristique lobortis rutrum ornare odio eget rhoncus viverra. Venenatis morbi fringilla nunc quam. Nam dui quis mollis vulputate ultrices euismod amet lacus. Cursus venenatis aenean sed neque eget. Viverra lacinia eleifend aliquam massa.</p>
-                                <p className="mb-0">Consectetur tempor nisi vulputate sapien volutpat. Volutpat pellentesque parturient quis facilisis tellus sed. Metus arcu quam mi nec sed sem tellus nec aenean. In ipsum in ac enim duis vel. Ullamcorper iaculis pharetra pretium consectetur. Scelerisque feugiat facilisis ut velit vulputate. Placerat cursus urna quam et sagittis eu adipiscing sed. Velit eleifend et eget eget. Pretium egestas sagittis sit ipsum amet non tincidunt mauris.</p>
-                                <p>Sed sit eu eget sit dolor. Malesuada condimentum nulla sit mattis massa hendrerit mi aliquam dui. Nulla amet sed vulputate dui pellentesque orci arcu nunc. Turpis molestie proin diam in fermentum nibh fringilla cursus eget. Fermentum pulvinar duis leo tristique pellentesque ut. In eleifend vel sit consequat morbi nulla. Faucibus urna elit non consectetur sed etiam in nisi lectus. Pretium scelerisque in aliquet aliquet. Sagittis nisi sapien laoreet eget. Nunc at neque scelerisque est vel commodo. Laoreet senectus integer consequat neque. Feugiat nulla cras faucibus sed. Lacinia rhoncus laoreet molestie vitae risus. Sed quis est lacus nulla. Metus diam nulla orci faucibus.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Evidence Based Features */}
-                <div className="our-professionals mentor-our op_terms">
-                    <div className="container ">
-                        <div className="row  pb-3">
-                            <div className="col-lg-12 mb-4 mb-lg-0 text-start">
-                                <h2 className="section-title text-black">
-                                    Website Operator
-                                </h2>
-                                <p className="mb-0 text-black">
-                                    Consectetur tempor nisi vulputate sapien volutpat. Volutpat pellentesque parturient quis facilisis tellus sed. Metus arcu quam mi nec sed sem tellus nec aenean. In ipsum in ac enim duis vel. Ullamcorper iaculis pharetra pretium consectetur. Scelerisque feugiat facilisis ut velit vulputate. Placerat cursus urna quam et sagittis eu adipiscing sed. Velit eleifend et eget eget. Pretium egestas sagittis sit ipsum amet non tincidunt mauris.
-                                    Sed sit eu eget sit dolor. Malesuada condimentum nulla sit mattis massa hendrerit mi aliquam dui. Nulla amet sed vulputate dui pellentesque orci arcu nunc. Turpis molestie proin diam in fermentum nibh fringilla cursus eget. Fermentum pulvinar duis leo tristique pellentesque ut. In eleifend vel sit consequat morbi nulla. Faucibus urna elit non consectetur sed etiam in nisi lectus. Pretium scelerisque in aliquet aliquet. Sagittis nisi sapien laoreet eget. Nunc at neque scelerisque est vel commodo. Laoreet senectus integer consequat neque. Feugiat nulla cras faucibus sed. Lacinia rhoncus laoreet molestie vitae risus. Sed quis est lacus nulla. Metus diam nulla orci faucibus.
+                                <p className="mb-0">
+                                    <strong>Last Updated: January 2025</strong>
                                 </p>
-                                <h2 className="section-title text-black">
-                                    applicability
-                                </h2>
-                                <p className="mb-0 text-black">
-                                    Consectetur tempor nisi vulputate sapien volutpat. Volutpat pellentesque parturient quis facilisis tellus sed. Metus arcu quam mi nec sed sem tellus nec aenean. In ipsum in ac enim duis vel. Ullamcorper iaculis pharetra pretium consectetur. Scelerisque feugiat facilisis ut velit vulputate. Placerat cursus urna quam et sagittis eu adipiscing sed. Velit eleifend et eget eget. Pretium egestas sagittis sit ipsum amet non tincidunt mauris.
-                                    Sed sit eu eget sit dolor. Malesuada condimentum nulla sit mattis massa hendrerit mi aliquam dui. Nulla amet sed vulputate dui pellentesque orci arcu nunc. Turpis molestie proin diam in fermentum nibh fringilla cursus eget. Fermentum pulvinar duis leo tristique pellentesque ut.
-                                </p>
-                                <h2 className="section-title text-black">
-                                    use of website
-                                </h2>
-                                <p className="mb-0 text-black">
-                                    Consectetur tempor nisi vulputate sapien volutpat. Volutpat pellentesque parturient quis facilisis tellus sed. Metus arcu quam mi nec sed sem tellus nec aenean. In ipsum in ac enim duis vel. Ullamcorper iaculis pharetra pretium consectetur. Scelerisque feugiat facilisis ut velit vulputate. Placerat cursus urna quam et sagittis eu adipiscing sed. Velit eleifend et eget eget. Pretium egestas sagittis sit ipsum amet non tincidunt mauris.
-                                    Sed sit eu eget sit dolor. Malesuada condimentum nulla sit mattis massa hendrerit mi aliquam dui. Nulla amet sed vulputate dui pellentesque orci arcu nunc. Turpis molestie proin diam in fermentum nibh fringilla cursus eget. Fermentum pulvinar duis leo tristique pellentesque ut. In eleifend vel sit consequat morbi nulla. Faucibus urna elit non consectetur sed etiam in nisi lectus. Pretium scelerisque in aliquet aliquet. Sagittis nisi sapien laoreet eget. Nunc at neque scelerisque est vel commodo. Laoreet senectus integer consequat neque. Feugiat nulla cras faucibus sed. Lacinia rhoncus laoreet molestie vitae risus. Sed quis est lacus nulla. Metus diam nulla orci faucibus.
-                                </p>
-                                <h2 className="section-title text-black">
-                                    your materials
-                                </h2>
-                                <p className="mb-0 text-black">
-                                    Consectetur tempor nisi vulputate sapien volutpat. Volutpat pellentesque parturient quis facilisis tellus sed. Metus arcu quam mi nec sed sem tellus nec aenean. In ipsum in ac enim duis vel. Ullamcorper iaculis pharetra pretium consectetur. Scelerisque feugiat facilisis ut velit vulputate. Placerat cursus urna quam et sagittis eu adipiscing sed. Velit eleifend et eget eget. Pretium egestas sagittis sit ipsum amet non tincidunt mauris.
-                                    Sed sit eu eget sit dolor. Malesuada condimentum nulla sit mattis massa hendrerit mi aliquam dui. Nulla amet sed vulputate dui pellentesque orci arcu nunc. Turpis molestie proin diam in fermentum nibh fringilla cursus eget. Fermentum pulvinar duis leo tristique pellentesque ut. In eleifend vel sit consequat morbi nulla. Faucibus urna elit non consectetur sed etiam in nisi lectus. Pretium scelerisque in aliquet aliquet. Sagittis nisi sapien laoreet eget. Nunc at neque scelerisque est vel commodo. Laoreet senectus integer consequat neque. Feugiat nulla cras faucibus sed. Lacinia rhoncus laoreet molestie vitae risus. Sed quis est lacus nulla. Metus diam nulla orci faucibus.
-                                </p>
-                                <h2 className="section-title text-black">
-                                    linking
-                                </h2>
-                                <p className="mb-0 text-black">
-                                    Consectetur tempor nisi vulputate sapien volutpat. Volutpat pellentesque parturient quis facilisis tellus sed. Metus arcu quam mi nec sed sem tellus nec aenean. In ipsum in ac enim duis vel. Ullamcorper iaculis pharetra pretium consectetur. Scelerisque feugiat facilisis ut velit vulputate. Placerat cursus urna quam et sagittis eu adipiscing sed. Velit eleifend et eget eget. Pretium egestas sagittis sit ipsum amet non tincidunt mauris.
-                                    Sed sit eu eget sit dolor. Malesuada condimentum nulla sit mattis massa hendrerit mi aliquam dui. Nulla amet sed vulputate dui pellentesque orci arcu nunc. Turpis molestie proin diam in fermentum nibh fringilla cursus eget. Fermentum pulvinar duis leo tristique pellentesque ut. In eleifend vel sit consequat morbi nulla. Faucibus urna elit non consectetur sed etiam in nisi lectus. Pretium scelerisque in aliquet aliquet. Sagittis nisi sapien laoreet eget. Nunc at neque scelerisque est vel commodo. Laoreet senectus integer consequat neque. Feugiat nulla cras faucibus sed. Lacinia rhoncus laoreet molestie vitae risus. Sed quis est lacus nulla. Metus diam nulla orci faucibus.
-                                </p>
-                                <h2 className="section-title text-black">
-                                    liability
-                                </h2>
-                                <p className="mb-0 text-black">
-                                    Consectetur tempor nisi vulputate sapien volutpat. Volutpat pellentesque parturient quis facilisis tellus sed. Metus arcu quam mi nec sed sem tellus nec aenean. In ipsum in ac enim duis vel. Ullamcorper iaculis pharetra pretium consectetur. Scelerisque feugiat facilisis ut velit vulputate. Placerat cursus urna quam et sagittis eu adipiscing sed. Velit eleifend et eget eget. Pretium egestas sagittis sit ipsum amet non tincidunt mauris.
-                                    Sed sit eu eget sit dolor. Malesuada condimentum nulla sit mattis massa hendrerit mi aliquam dui. Nulla amet sed vulputate dui pellentesque orci arcu nunc. Turpis molestie proin diam in fermentum nibh fringilla cursus eget. Fermentum pulvinar duis leo tristique pellentesque ut. In eleifend vel sit consequat morbi nulla. Faucibus urna elit non consectetur sed etiam in nisi lectus. Pretium scelerisque in aliquet aliquet. Sagittis nisi sapien laoreet eget. Nunc at neque scelerisque est vel commodo. Laoreet senectus integer consequat neque. Feugiat nulla cras faucibus sed. Lacinia rhoncus laoreet molestie vitae risus. Sed quis est lacus nulla. Metus diam nulla orci faucibus.
-                                </p>
-                                <h2 className="section-title text-black">
-                                    Jurisdiction and general
-                                </h2>
-                                <p className="mb-0 text-black pb-0">
-                                    Consectetur tempor nisi vulputate sapien volutpat. Volutpat pellentesque parturient quis facilisis tellus sed. Metus arcu quam mi nec sed sem tellus nec aenean. In ipsum in ac enim duis vel. Ullamcorper iaculis pharetra pretium consectetur. Scelerisque feugiat facilisis ut velit vulputate. Placerat cursus urna quam et sagittis eu adipiscing sed. Velit eleifend et eget eget. Pretium egestas sagittis sit ipsum amet non tincidunt mauris.
-                                    Sed sit eu eget sit dolor. Malesuada condimentum nulla sit mattis massa hendrerit mi aliquam dui. Nulla amet sed vulputate dui pellentesque orci arcu nunc. Turpis molestie proin diam in fermentum nibh fringilla cursus eget. Fermentum pulvinar duis leo tristique pellentesque ut. In eleifend vel sit consequat morbi nulla. Faucibus urna elit non consectetur sed etiam in nisi lectus. Pretium scelerisque in aliquet aliquet. Sagittis nisi sapien laoreet eget. Nunc at neque scelerisque est vel commodo. Laoreet senectus integer consequat neque. Feugiat nulla cras faucibus sed. Lacinia rhoncus laoreet molestie vitae risus. Sed quis est lacus nulla. Metus diam nulla orci faucibus.
+                                <p>
+                                    These Terms & Conditions govern the use of the People Index Hub platform by Job Seekers,
+                                    Employers, Coaches, Advertisers, and all website visitors. By using our site, you agree
+                                    to comply with these terms.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                {/* Evidence Based Features */}
+                {/* Terms Content Section */}
                 <div className="op_terms_bottom">
-                    <div className="container ">
-                        <div className="row  pb-3">
+                    <div className="container">
+                        <div className="row pb-3">
                             <div className="col-lg-12 mb-4 mb-lg-0 text-start">
-                                <h2 className="section-title text-black">
-                                    privacy and cookies
-                                </h2>
-                                <p className="mb-0 text-black">
-                                    Consectetur tempor nisi vulputate sapien volutpat. Volutpat pellentesque parturient quis facilisis tellus sed. Metus arcu quam mi nec sed sem tellus nec aenean. In ipsum in ac enim duis vel. Ullamcorper iaculis pharetra pretium consectetur. Scelerisque feugiat facilisis ut velit vulputate. Placerat cursus urna quam et sagittis eu adipiscing sed. Velit eleifend et eget eget. Pretium egestas sagittis sit ipsum amet non tincidunt mauris.
-                                    Sed sit eu eget sit dolor. Malesuada condimentum nulla sit mattis massa hendrerit mi aliquam dui. Nulla amet sed vulputate dui pellentesque orci arcu nunc. Turpis molestie proin diam in fermentum nibh fringilla cursus eget. Fermentum pulvinar duis leo tristique pellentesque ut. In eleifend vel sit consequat morbi nulla. Faucibus urna elit non consectetur sed etiam in nisi lectus. Pretium scelerisque in aliquet aliquet. Sagittis nisi sapien laoreet eget. Nunc at neque scelerisque est vel commodo. Laoreet senectus integer consequat neque. Feugiat nulla cras faucibus sed. Lacinia rhoncus laoreet molestie vitae risus. Sed quis est lacus nulla. Metus diam nulla orci faucibus.
+
+                                {/* 1. Website Operator */}
+                                <h3 className="section-title text-black">1. Website Operator</h3>
+                                <p className="text-black mb-4">
+                                    People Index Hub is operated by a global digital service provider offering employment
+                                    search tools, staffing support, coaching access, and advertising features.
                                 </p>
+
+                                {/* 2. Applicability */}
+                                <h3 className="section-title text-black mt-5">2. Applicability</h3>
+                                <p className="text-black mb-4">
+                                    These Terms apply to Job Seekers, Employers, Coaches, Advertisers, and all users who
+                                    access or interact with the platform.
+                                </p>
+
+                                {/* 3. Use of Website */}
+                                <h3 className="section-title text-black mt-5">3. Use of Website</h3>
+                                <p className="text-black mb-4">
+                                    By accessing People Index Hub, you agree to use the platform lawfully, refrain from
+                                    harmful behavior, and comply with all posted guidelines and standards.
+                                </p>
+
+                                {/* 4. Your Materials */}
+                                <h3 className="section-title text-black mt-5">4. Your Materials</h3>
+                                <p className="text-black mb-4">
+                                    Users may upload resumes, job listings, ads, profiles, and other content. By uploading,
+                                    you confirm you own the rights and grant us permission to store, process, and display
+                                    your materials as part of the service.
+                                </p>
+
+                                {/* 5. Paid Services */}
+                                <h3 className="section-title text-black mt-5">5. Paid Services</h3>
+                                <p className="text-black mb-4">
+                                    People Index Hub provides paid services including job postings, advertisements, coaching
+                                    sessions, and premium features. Users agree to applicable charges, billing terms, and
+                                    service policies.
+                                </p>
+
+                                {/* 6. Linking */}
+                                <h3 className="section-title text-black mt-5">6. Linking</h3>
+                                <p className="text-black mb-4">
+                                    You may link to our website fairly and legally. Misleading links, malicious redirects,
+                                    or links that damage our reputation are strictly prohibited.
+                                </p>
+
+                                {/* 7. Liability */}
+                                <h3 className="section-title text-black mt-5">7. Liability</h3>
+                                <p className="text-black mb-4">
+                                    People Index Hub provides services on an “as-is” basis. We do not guarantee job placements,
+                                    uninterrupted access, or error-free performance. We are not responsible for indirect,
+                                    incidental, or consequential damages.
+                                </p>
+
+                                {/* 8. Security & Reporting */}
+                                <h3 className="section-title text-black mt-5">8. Security & Reporting</h3>
+                                <p className="text-black mb-4">
+                                    Users may not attempt unauthorized access, reverse engineering, data extraction, or
+                                    actions that could harm the system. All security concerns must be reported immediately.
+                                </p>
+
+                                {/* 9. Account Termination */}
+                                <h3 className="section-title text-black mt-5">9. Account Termination</h3>
+                                <p className="text-black mb-4">
+                                    We may suspend or terminate accounts for violations, fraud, non-payment, misuse, or
+                                    suspicious activity.
+                                </p>
+
+                                {/* 10. Indemnification */}
+                                <h3 className="section-title text-black mt-5">10. Indemnification</h3>
+                                <p className="text-black mb-4">
+                                    Users agree to indemnify and hold us harmless from claims, losses, or damages arising
+                                    from their use of the platform.
+                                </p>
+
+                                {/* 11. Jurisdiction and Governing Law */}
+                                <h3 className="section-title text-black mt-5">11. Jurisdiction and Governing Law</h3>
+                                <p className="text-black mb-4">
+                                    These Terms are governed by the laws of the United States. Any disputes will be handled
+                                    under the appropriate U.S. jurisdictions.
+                                </p>
+
+                                {/* 12. Privacy and Cookies */}
+                                <h3 className="section-title text-black mt-5">12. Privacy and Cookies</h3>
+                                <p className="text-black mb-4">
+                                    Use of the platform is also governed by our Privacy Policy and Cookies Policy. Users
+                                    are responsible for reviewing and understanding these documents.
+                                </p>
+
+                                {/* 13. Changes to These Terms */}
+                                <h3 className="section-title text-black mt-5">13. Changes to These Terms</h3>
+                                <p className="text-black mb-4">
+                                    We may update these Terms at any time. Continued use of the platform means you accept
+                                    any updated or revised version.
+                                </p>
+
+                                {/* 14. Contact Us */}
+                                <h3 className="section-title text-black mt-5 mb-4">14. Contact Us</h3>
+                                <div className="text-black bg-muted rounded-lg mb-4">
+                                    <p className="mb-2">
+                                        For any questions regarding these Terms, please contact us through our Contact Us page.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div >
+            </div>
 
             <Footer />
         </>

@@ -29,10 +29,13 @@ export default function Educators() {
                                         your safety is our priority
                                     </h2>
                                     <p className="mb-2">
-                                        Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam.
+                                        Protecting job seekers is one of our most important responsibilities. Our team works to ensure that every opportunity shared through People Index Hub is genuine trustworthy and safe.
+                                    </p>
+                                    <p className="mb-2">
+                                        We encourage all users to stay alert and informed especially when interacting with unfamiliar employers or messages that feel unusual. Scammers often attempt to impersonate real companies create fake job postings or contact candidates through personal messages that ask for sensitive information.
                                     </p>
                                     <p>
-                                        Facilisi luctus neque ligula mauris senectus ac nam netus massa. A vivamus ultrices neque neque iaculis tellus id nec. Tristique diam at elementum vel eu enim. Tristique eget ipsum nisl facilisis scelerisque amet. Id viverra nulla penatibus malesuada adipiscing tellus in. Et sem vitae odio proin pulvinar vulputate.
+                                        We encourage all users to stay alert and informed especially when interacting with unfamiliar employers or messages that feel unusual. Scammers often attempt to impersonate real companies create fake job postings or contact candidates through personal messages that ask for sensitive information.
                                     </p>
                                 </div>
                                 <Image src="/images/ed-sec1-2.png" className="w-100 h-auto" width={500} height={300} alt="" />
@@ -52,7 +55,10 @@ export default function Educators() {
                                     what is a job scam?
                                 </h2>
                                 <p className="mb-0">
-                                    These recruitment scams often involve fake online job ads on social platforms and untrusted job portals offering high-paying jobs that are too good to be true. Another common job scam involves sending a fake offer in an unsolicited text message or on another platform like Facebook or WhatsApp. Job scammers will often ask victims to share personal information or transfer money prior to the interview.
+                                    Job scams usually involve fake online job ads fake employer profiles or unrealistic offers that seem too good to be true. Scammers may also contact individuals through text messages or platforms like Facebook or WhatsApp pretending to offer interviews or instant job placements.
+                                </p>
+                                <p className="mb-0">
+                                    These attempts often involve pressure to share personal information pay upfront fees or transfer money before the interview. Any request that asks for payment personal details or banking access before an official hiring process should always be treated as suspicious.
                                 </p>
                             </div>
                         </div>
@@ -64,15 +70,15 @@ export default function Educators() {
                     <div className="container">
                         <h2>how to spot a job scam</h2>
                         <p className="subtitle">
-                            Job scams can take many different forms, but here are some common themes that can make it easier to spot.
+                            Job scams can take many forms but the signs below make them easier to identify.
                         </p>
 
                         <div className="accordion" id="faqAccordion">
                             {[
-                                { q: "How long will the recruitment process take?", a: "Nunc sed ad purus. Nisi sis lobortis proin locus torques, sit ipse maleada ad sed in. Pislis du ultricies a sed volutpat. Com iaque velit volutpat com varius..." },
-                                { q: "Do you recruit for Graduates, Apprentices and Students?", a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-                                { q: "What does the recruitment and selection process involve?", a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-                                { q: "Can I receive notifications for any future jobs that may interest me?", a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+                                { q: "How long will the recruitment process take?", a: "If the recruiter promises an instant offer without interviews meetings or verification it may be a scam." },
+                                { q: "Do you recruit for Graduates Apprentices and Students?", a: "Scammers often target individuals who may be new to the workforce because they are more likely to trust misleading promises." },
+                                { q: "What does the recruitment and selection process involve?", a: "Legitimate employers follow clear steps including interviews reference checks and official communication sent from company email addresses." },
+                                { q: "Can I receive notifications for any future jobs that may interest me  ?", a: "Real companies allow you to subscribe to job alerts so you never feel pressured to accept suspicious offers." },
                             ].map((item, idx) => (
                                 <div key={idx} className="accordion-item">
                                     <h2 className="accordion-header">
@@ -108,8 +114,9 @@ export default function Educators() {
                                     <h2 className="section-title">
                                         what should you do if you encounter a job scam?
                                     </h2>
-                                    <p className="mb-2">Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam.</p>
-                                    <p>Facilisi luctus neque ligula mauris senectus ac nam netus massa. A vivamus ultrices neque neque iaculis tellus id nec. Tristique diam at elementum vel eu enim. Tristique eget ipsum nisl facilisis scelerisque amet. Id viverra nulla penatibus malesuada adipiscing tellus in. Et sem vitae odio proin pulvinar vulputate.</p>
+                                    <p className="mb-2">If you believe you have been contacted by a scammer stop communication immediately.</p>
+                                    <p className="mb-2">Do not share personal information do not send money and do not open links from unfamiliar sources. Take screenshots of the messages emails or profiles involved so you can report them accurately.</p>
+                                    <p>Report the incident to your local authorities and notify the platform where the scam occurred. Our team at People Index Hub is always here to guide you through the process and help you stay safe.</p>
                                 </div>
                                 <div className="col-4 text-center">
                                     <Image src="/images/wsjs-im5.jpg" width={320} height={448} alt="" />
@@ -127,7 +134,10 @@ export default function Educators() {
                                     finding a real opportunity
                                 </h2>
                                 <p className="mb-0">
-                                    Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam Facilisi luctus neque ligula mauris senectus ac nam netus massa. A vivamus ultrices neque neque iaculis tellus id nec. Tristique diam at elementum vel eu enim. Tristique eget ipsum nisl facilisis scelerisque amet. Id viverra nulla penatibus malesuada adipiscing tellus in. Et sem vitae odio proin pulvinar vulputate.
+                                    Real opportunities come from trusted companies transparent communication and clear hiring steps. If an offer feels uncertain take time to research the employer read reviews or request a video meeting to confirm legitimacy.
+                                </p>
+                                <p className="mb-0">
+                                    At People Index Hub we are committed to promoting safe hiring practices and connecting you with employers who value professionalism honesty and growth. When you stay informed you protect your future and ensure that every opportunity you pursue is real meaningful and aligned with your career goals.
                                 </p>
                             </div>
                         </div>

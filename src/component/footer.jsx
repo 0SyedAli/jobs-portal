@@ -11,8 +11,7 @@ export default function Footer() {
               <Image src="/images/footer-logo.png" style={{ objectFit: "contain", marginBottom:"30px"}} width={116} height={60} alt="" />
             </Link>
             <p style={{ color: "#c2c2c2", fontSize: "20px", fontFamily: "var(--font-lexend)" }}>
-              Quis enim pellentesque viverra tellus eget molestie et molestie facilitisis. Congue nulla vivamus
-              pellentesque ac porttitor in...
+              Empowering professionals with reliable staffing solutions resources and employment guidance.
             </p>
           </div>
           <div className="col-md-2">
