@@ -730,6 +730,7 @@ textarea {
   border-bottom: 2px solid #E95C4B;
   border-radius: 0;
   padding: 20px 20px 30px;
+  text-transform: capitalize;
 }
 
 .faq-section .accordion-item:has(.accordion-collapse.collapse.show) .accordion-button {
@@ -1778,7 +1779,12 @@ footer .btn-primary {
   padding: 50px;
   border-radius: 20px;
   background-color: #FFF;
+  height: 100%;
+}
 
+.cs2_card.active {
+  background-color: #E95C4B;
+  color: #FFF;
 }
 
 .cs2_card h4 {
@@ -1786,6 +1792,10 @@ footer .btn-primary {
   font-weight: bold;
   text-transform: capitalize;
   font-family: var(--font-figtree);
+}
+
+.cs2_card.active img {
+  filter: brightness(0) saturate(100%) invert(87%) sepia(62%) saturate(0%) hue-rotate(264deg) brightness(106%) contrast(103%);
 }
 
 .tailored-slider-section {
@@ -1816,6 +1826,10 @@ footer .btn-primary {
   color: #000;
   margin: 7px 0 10px 20px;
 
+}
+
+.tss_card.active h4 {
+  color: #FFF;
 }
 
 .need-resume-section {
@@ -1856,6 +1870,84 @@ footer .btn-primary {
 
 .cr-gto-section h2 {
   font-size: 50px;
+}
+
+.ready-to-use {
+  margin-bottom: 80px;
+}
+
+.bj_rtu {
+  margin-top: 80px;
+}
+
+.ready-to-use .rtu-left {
+  color: #FFF;
+  padding: 0 70px;
+}
+
+.bj_rtu .rtu-left {
+  color: #000;
+}
+
+.b_content h6 {
+  text-transform: capitalize;
+}
+
+.b_content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.b_content ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #605B5B;
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+.b_content ul li span {
+  font-size: 20px;
+  line-height: 100%;
+  color: #000;
+}
+
+
+.lat_ul {
+  padding: 0 20px;
+  border-left: 1px solid #ccc;
+  height: fit-content;
+}
+
+.lat_ul ul {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.lat_ul li {
+  font-size: 22px;
+  color: #000;
+  font-weight: 700;
+  font-family: var(--font-figtree);
+  text-transform: capitalize;
+
+}
+
+.bj_section2 .lat_ul li {
+  color: #FFF;
+}
+
+.lat_ul li::marker {
+  font-size: 16px;
+}
+
+.ss_cards {
+  border-radius: 30px;
+  background-color: #FFF;
+  padding: 30px;
 }
 
 @media (max-height:800px) {}

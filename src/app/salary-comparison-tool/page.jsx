@@ -30,11 +30,11 @@ export default function Educators() {
                                             </div>
                                             <div>
                                                 <label htmlFor="">where? (optional)</label>
-                                                <input type="text" className="form-control" placeholder="Job Title or Company" />
+                                                <input type="text" className="form-control" placeholder="Location" />
                                             </div>
                                             <div>
                                                 <label htmlFor="">annual gross salary (optional)</label>
-                                                <input type="text" className="form-control" placeholder="Job Title or Company" />
+                                                <input type="text" className="form-control" placeholder="Enter Annual Gross Salary" />
                                             </div>
                                         </div>
                                         <button className="btn btn-primary h-100">
