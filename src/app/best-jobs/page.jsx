@@ -100,7 +100,7 @@ export default function Educators() {
                 <section className="ready-to-use bj_rtu">
                     <div className="container">
                         <div className="row justify-content-between align-items-center gx-0" style={{ backgroundColor: "#F0F0F0", borderRadius: "10px" }}>
-                            <div className="col-5">
+                            <div className="col-6">
                                 <div className="rtu-left">
                                     <h2 className="section-title">
                                         Your Location Your Career Advantage
