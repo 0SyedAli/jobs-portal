@@ -92,11 +92,11 @@ export default function Footer() {
         <div className="row" style={{ borderTop: "1px solid #333", paddingTop: "20px" }}>
           <div className="col-8">
             <small style={{ color: "#d8d8d8", fontSize: "13px" }}>
-              Randstad N.V.  | <Link href="/misconduct" >misconduct reporting</Link> | <Link href="/job-scams" >avoid job scams</Link>  | <Link href="/terms-and-condition" >terms of service</Link>  | <Link href="/accessibility-statement" >accessibility statement</Link> | <Link href="/privacy-policy" >privacy policy</Link>  | <Link href="#!" >report security problem</Link>
+              PEOPLE INDEX HUB | <Link href="/misconduct" >misconduct reporting</Link> | <Link href="/job-scams" >avoid job scams</Link>  | <Link href="/terms-and-condition" >terms of service</Link>  | <Link href="/accessibility-statement" >accessibility statement</Link> | <Link href="/privacy-policy" >privacy policy</Link>  | <Link href="#!" >report security problem</Link>
             </small>
           </div>
           <div className="col-4">
-            <small style={{ color: "#d8d8d8", fontSize: "13px" }}>Copyright © 2025 Community Wellness Project</small>
+            <small style={{ color: "#d8d8d8", fontSize: "13px" }}>Copyright © 2025 PEOPLE INDEX HUB</small>
           </div>
         </div>
       </div>
