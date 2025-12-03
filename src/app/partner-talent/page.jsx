@@ -131,19 +131,19 @@ export default function About() {
                                 {
                                     img: "/images/blog2.jpg",
                                     date: "30 March 2024",
-                                    title: "Revitalizing Workplace Morale: Innovative Tactics for Boosting Employee Engagement in 2024",
+                                    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
                                     label: "news"
                                 },
                                 {
                                     img: "/images/blog1.jpg",
                                     date: "30 March 2024",
-                                    title: "Revitalizing Workplace Morale: Innovative Tactics for Boosting Employee Engagement in 2024",
+                                    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
                                     label: "news"
                                 },
                                 {
                                     img: "/images/blog1.jpg",
                                     date: "30 March 2024",
-                                    title: "Revitalizing Workplace Morale: Innovative Tactics for Boosting Employee Engagement in 2024",
+                                    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
                                     label: "news"
                                 },
                             ].map((post, idx) => (

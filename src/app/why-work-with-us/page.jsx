@@ -30,9 +30,9 @@ export default function About() {
                                     title: "it's free",
                                     label: "news",
                                     bLi: [
-                                        "Gain full access to expert career guidance at no cost",
-                                        "Personalized recommendations tailored to your goals",
-                                        "Immediate support designed to help you move forward with confidence"
+                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit."
                                     ]
                                 },
                                 {
@@ -40,9 +40,9 @@ export default function About() {
                                     title: "it's free",
                                     label: "news",
                                     bLi: [
-                                        "Receive tailored advice from experienced professionals",
-                                        "Get clarity on the best direction for your next career move",
-                                        "Improve your confidence through professional guidance"
+                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
                                     ]
                                 },
                                 {
@@ -50,9 +50,9 @@ export default function About() {
                                     title: "it's free",
                                     label: "news",
                                     bLi: [
-                                        "Explore diverse opportunities matched to your strengths",
-                                        "Connect with recruiters who value your unique skill set",
-                                        "Stay informed about new openings that fit your goals"
+                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
                                     ]
                                 },
                             ].map((post, idx) => (

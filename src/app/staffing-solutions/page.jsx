@@ -28,17 +28,17 @@ export default function About() {
                                 {
                                     img: "/images/ss_img1.jpg",
                                     title: "Available Opportunities",
-                                    para: "Explore verified job openings across multiple industries, designed to match your skills, goals, and preferred career path."
+                                    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?"
                                 },
                                 {
                                     img: "/images/ss_img2.jpg",
                                     title: "Career Resources",
-                                    para: "Gain access to tools and guidance that help you build confidence, strengthen your resume, and prepare for real world interviews."
+                                    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?"
                                 },
                                 {
                                     img: "/images/ss_img3.jpg",
                                     title: "find your closest branch",
-                                    para: "Connect with our partner offices and staffing teams available in select regions to support your employment or hiring needs."
+                                    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?"
                                 },
                             ].map((post, idx) => (
                                 <div key={idx} className="col-md-4">
