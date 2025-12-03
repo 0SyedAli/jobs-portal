@@ -541,6 +541,8 @@ textarea {
   height: 400px;
   object-fit: cover;
   border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .b_label {
@@ -1701,6 +1703,7 @@ footer .btn-primary {
   color: #FFF;
   font-size: 14px;
   padding: 10px 15px;
+  text-transform: capitalize;
 }
 
 .btn-theme3 {
@@ -1709,6 +1712,7 @@ footer .btn-primary {
   background-color: #E95C4B;
   font-size: 14px;
   padding: 10px 15px;
+  text-transform: capitalize;
 }
 
 .btn-theme4 {
@@ -1718,6 +1722,7 @@ footer .btn-primary {
   font-size: 16px;
   padding: 10px 20px;
   font-weight: 600;
+  text-transform: capitalize;
 }
 
 .op_terms .section-title {
@@ -1888,7 +1893,7 @@ footer .btn-primary {
 
 .ready-to-use .rtu-left {
   color: #FFF;
-  padding: 0 70px;
+  padding: 0 0 0 70px;
 }
 
 .bj_rtu .rtu-left {
@@ -2036,7 +2041,7 @@ footer .btn-primary {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  color: #333!important;
+  color: #333 !important;
 }
 
 .swiper-button-prev {
@@ -2054,10 +2059,44 @@ footer .btn-primary {
 
 .swiper-button-prev svg,
 .swiper-button-next svg {
-  width: 20px!important;
-  height: 20px!important;
+  width: 20px !important;
+  height: 20px !important;
 }
 
+.hv-gto .hv-img2 {
+  position: absolute;
+  top: 0;
+  right: 250px;
+}
+
+.ms-gto {
+  padding: 70px 0;
+}
+
+.msp-section .accordion-item {
+  background-color: transparent;
+}
+
+.msp-section .accordion-item .accordion-button {
+  color: #FFF;
+}
+
+.msp-section .accordion-button::after {
+  filter: brightness(0) saturate(100%) invert(43%) sepia(53%) saturate(1399%) hue-rotate(330deg) brightness(97%) contrast(88%);
+}
+
+.msp-section .accordion-button {
+  border-color: #FFF!important;
+}
+.sg-gto h4 {
+  font-family: var(--font-figtree);
+  text-transform: capitalize;
+}
+.sg-gto ul li  {
+  padding: 5px 0;
+  font-family: var(--font-figtree);
+  font-size: 18px;
+}
 /* Responsive adjustments */
 @media (max-width: 768px) {
 
