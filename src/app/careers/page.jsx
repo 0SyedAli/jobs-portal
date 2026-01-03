@@ -45,7 +45,8 @@ export default function Contact() {
                             {/* Right Side - Contact Form (Note: The form fields are missing in the original provided HTML structure, but the handler logic is present.) */}
                             <div className="col-lg-7">
                                 <p className="mb-0">
-                                    The Community Wellness Project is a specialized professional and educational staffing and recruitment firm dedicated to meeting businesses’ unique needs. Our experienced team leverages industry expertise and a deep understanding of the education and corporate sectors to provide tailored staffing solutions that drive improvement, innovation, and excellence.
+                                    People Index Hub is a specialized professional and educational staffing and recruitment organization dedicated to meeting the evolving needs of businesses and institutions. Our experienced team leverages industry expertise and deep sector knowledge to deliver tailored staffing solutions that drive performance, innovation, and long-term success.
+
                                 </p>
                             </div>
                         </div>
@@ -167,7 +168,7 @@ export default function Contact() {
                                     Join Our Team
                                 </h2>
                                 <p className="mb-4">
-                                    When you partner with the Community Wellness Project, you gain a staffing ally invested in your success and the strength of your community. We provide tailored staffing solutions that flex to your virtual, hybrid, or onsite needs. Our contracted professionals are well-compensated to ensure top talent. Long-term partners receive discounted rates. Above all, our mission is your organizational empowerment – freeing you to focus on core priorities while we handle supplemental staffing demands.
+                                    When you join People Index Hub, you become part of a community focused on impact, growth, and professional excellence. We provide flexible staffing solutions that adapt to virtual, hybrid, and on-site needs while ensuring professionals are supported, fairly compensated, and positioned for long-term success. Our mission is to empower organizations and talent alike by managing staffing complexities so you can focus on what matters most.
                                 </p>
                                 <Link href="/jobs" className="btn btn-primary me-4" style={{background:"#202545", borderColor:"#202545"}}>start your search</Link>
                             </div>

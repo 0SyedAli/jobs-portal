@@ -345,10 +345,10 @@ export default function JobsListingPage() {
                             <div className="row align-items-center justify-content-center pb-3">
                                 <div className="col-lg-9 mb-4 mb-lg-0 text-center">
                                     <h2 className="section-title text-white">
-                                        let similar jobs come to you
+                                        Get Similar Jobs Sent To You
                                     </h2>
                                     <p className="mb-0  text-white">
-                                        At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum
+                                        Subscribe to job alerts by entering your job title, location, email address, and preferred frequency.
                                     </p>
                                 </div>
                             </div>

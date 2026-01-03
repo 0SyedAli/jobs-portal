@@ -39,30 +39,29 @@ export default function Contact() {
                 {/* Main Contact Section */}
                 <div className="contact-section">
                     <div className="container">
-                        <div className="row align-items-center">
+                        <div className="row ">
                             {/* Left Side */}
                             <div className="col-lg-6 mb-5 mb-lg-0">
-                                <h2>The Benefits Of Building Your Resume With Us</h2>
-                                <p className="mb-3">
-                                    Creating a strong resume is the first step toward unlocking new opportunities. At People Index Hub we help you highlight your strengths present your experience with clarity and showcase your full potential to employers. Our goal is to make sure your resume reflects who you are what you can achieve and the value you bring to every professional environment.
+                                <h2>You Will Grow, You Will Succeed. We Promise That</h2>
+                                <p className="mb-5">
+                                    At People Index Hub, we believe strong partnerships start with meaningful conversations. If you are looking to hire top talent, explore career opportunities, or learn how our staffing and workforce solutions can support your goals, our team is here to help.
                                 </p>
-                                <p>A polished resume gives you a competitive advantage increases visibility in hiring searches and positions you as a confident applicant.</p>
                                 <div className="row">
                                     <div className="col-lg-5 contact-info">
                                         <Image src="/images/phone.png" className="object-fit-contain mb-2" width={25} height={25} alt="" />
                                         <h5>Call for inquiry</h5>
-                                        <p className="contact-detail">214-475-6331</p>
+                                        <p className="contact-detail">214 475 6331</p>
                                     </div>
 
                                     <div className="col-lg-5 contact-info">
                                         <Image src="/images/email.png" className="object-fit-contain mb-2" width={25} height={25} alt="" />
-                                        <h5>Send us an email</h5>
+                                        <h5>Email Us</h5>
                                         <p className="contact-detail">info@thewellnessprojectllc.com</p>
                                     </div>
 
                                     <div className="contact-info">
                                         <Image src="/images/location.png" className="object-fit-contain mb-2" width={25} height={25} alt="" />
-                                        <h5>Address</h5>
+                                        <h5>Office Address</h5>
                                         <p>414 W. Parkway Street 1st Floor Denton TX 76201</p>
                                     </div>
                                 </div>
@@ -72,8 +71,8 @@ export default function Contact() {
                             <div className="col-lg-6">
                                 <div className="contact-form">
                                     <div className="text-center">
-                                        <h4 className="mb-3">Contact Info</h4>
-                                        <p>Nibh dis faucibus proin lacus tristique</p>
+                                        <h4 className="mb-3">Contact Form Information</h4>
+                                        <p>Use our contact form to reach out directly. Share your details and a brief message, and a member of our team will respond promptly.</p>
                                     </div>
                                     <form onSubmit={handleSubmit}>
                                         <div className="row gy-4 mb-4">
@@ -100,7 +99,7 @@ export default function Contact() {
                                                 />
                                             </div>
                                             <div className="col-md-12">
-                                                <label className="form-label">Email</label>
+                                                <label className="form-label">Email Address</label>
                                                 <input
                                                     type="email"
                                                     className="form-control"
@@ -110,7 +109,7 @@ export default function Contact() {
                                                     onChange={handleChange}
                                                 />
                                             </div>
-                                            <div className="col-md-6">
+                                            {/* <div className="col-md-6">
                                                 <label className="form-label">Phone Number</label>
                                                 <input
                                                     type="tel"
@@ -153,9 +152,9 @@ export default function Contact() {
                                                     value={formData.jobTitle}
                                                     onChange={handleChange}
                                                 />
-                                            </div>
+                                            </div> */}
                                             <div className="col-md-12">
-                                                <label className="form-label">Tell Us About Yourself</label>
+                                                <label className="form-label">Message</label>
                                                 <textarea
                                                     className="form-control"
                                                     name="message"
@@ -217,9 +216,9 @@ export default function Contact() {
                         <div className="row align-items-center">
                             <div className="col-7">
                                 <h2 className="section-title">
-                                    need help with your resume?
+                                    Interested? Let’s Talk!
                                 </h2>
-                                <p className="mb-0">Lorem ipsum dolor sit amet consectetur. Eu ante cursus justo lectus ac mauris Venenatis vel risus pretium diam aliquam.</p>
+                                <p className="mb-0">Whether you are hiring, job searching, or exploring workforce solutions, we are ready to support you. Reach out today and let us discuss how People Index Hub can help you move forward with confidence.</p>
                             </div>
                             <div className="col-lg-5 text-end">
                                 <Image src="/images/need-resume.png" className="" width={360} height={313} alt="" />

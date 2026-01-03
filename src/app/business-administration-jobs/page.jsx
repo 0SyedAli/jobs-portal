@@ -348,7 +348,7 @@ export default function JobsListingPage() {
                                         let similar jobs come to you
                                     </h2>
                                     <p className="mb-0  text-white">
-                                        At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum
+                                        Stay ahead in your job search by receiving personalized job alerts. Get notified when new business administration roles are posted that match your preferences.
                                     </p>
                                 </div>
                             </div>
@@ -368,7 +368,7 @@ export default function JobsListingPage() {
                                                     />
                                                 </div>
                                                 <div className="col-md-6">
-                                                    <label className="form-label">new york, new york</label>
+                                                    <label className="form-label">location</label>
                                                     <input
                                                         type="text"
                                                         className="form-control"
@@ -376,7 +376,7 @@ export default function JobsListingPage() {
                                                     />
                                                 </div>
                                                 <div className="col-md-6">
-                                                    <label className="form-label">your email address</label>
+                                                    <label className="form-label">email address</label>
                                                     <input
                                                         type="email"
                                                         className="form-control"
@@ -395,7 +395,7 @@ export default function JobsListingPage() {
                                                     <div className="form-check">
                                                         <input className="form-check-input" type="checkbox" value="" id="checkDefault" />
                                                             <label className="form-check-label form-label" htmlFor="checkDefault">
-                                                                I consent to the use of my information for the purpose of sending me job alerts.
+                                                                I consent to the use of my information for the purpose of receiving job alerts and relevant career updates.
                                                             </label>
                                                     </div>
                                                 </div>

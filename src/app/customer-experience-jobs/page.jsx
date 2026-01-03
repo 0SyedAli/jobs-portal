@@ -348,7 +348,7 @@ export default function JobsListingPage() {
                                         let similar jobs come to you
                                     </h2>
                                     <p className="mb-0  text-white">
-                                        At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum
+                                        Subscribe to job alerts by entering your job title, location, email address, and preferred frequency.
                                     </p>
                                 </div>
                             </div>
@@ -395,7 +395,7 @@ export default function JobsListingPage() {
                                                     <div className="form-check">
                                                         <input className="form-check-input" type="checkbox" value="" id="checkDefault" />
                                                             <label className="form-check-label form-label" htmlFor="checkDefault">
-                                                                I consent to the use of my information for the purpose of sending me job alerts.
+                                                                User consent is required to receive job notifications.
                                                             </label>
                                                     </div>
                                                 </div>

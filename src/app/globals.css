@@ -2097,6 +2097,31 @@ footer .btn-primary {
   font-family: var(--font-figtree);
   font-size: 18px;
 }
+
+.about-wrapper2 {
+  background: #ffffff;
+}
+
+.about-wrapper2 .content-section {
+  padding: 70px 0;
+}
+
+.about-wrapper2 .content-section.bg-light {
+  background-color: #f8f9fa;
+}
+
+.about-wrapper2 .section-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.about-wrapper2 .content-section p {
+  font-size: 16px;
+  line-height: 1.about-wrapper2 .7;
+  color: #333;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
 

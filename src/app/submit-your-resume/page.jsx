@@ -33,7 +33,7 @@ export default function Contact() {
             <div className="contact-wrapper">
                 {/* Hero Section */}
                 <div className="contact-hero">
-                    <h1>Contact Us</h1>
+                    <h1>Find A Job You'll Love</h1>
                 </div>
 
                 {/* Main Contact Section */}
@@ -43,12 +43,9 @@ export default function Contact() {
                             {/* Left Side */}
                             <div className="col-12 mb-5 mb-lg-0 text-center">
                                 <h2>ready for a new challenge?</h2>
-                                <p className="mb-3">
-                                    Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam.
-                                    <br />Facilisi luctus neque ligula mauris senectus ac nam netus massa. A vivamus ultrices neque neque iaculis tellus id nec. Tristique diam at elementum vel eu enim. Tristique eget ipsum nisl facilisis scelerisque amet. Id viverra nulla penatibus malesuada adipiscing tellus in. Et sem vitae odio proin pulvinar vulputate.
-
+                                <p>
+                                    This page invites candidates to explore new career opportunities and submit their resumes. It is designed to capture candidate information and connect them with relevant job opportunities through People Index Hub.
                                 </p>
-                                <p>Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam.</p>
                             </div>
 
                             {/* Right Side - Contact Form */}
@@ -92,17 +89,7 @@ export default function Contact() {
                                                     onChange={handleChange}
                                                 />
                                             </div>
-                                            <div className="col-md-6">
-                                                <label className="form-label">What type of job are you interested in?*</label>
-                                                <input
-                                                    type="number"
-                                                    className="form-control"
-                                                    name="zipCode"
-                                                    placeholder="City and State or Zip"
-                                                    value={formData.zipCode}
-                                                    onChange={handleChange}
-                                                />
-                                            </div>
+                                           
                                             <div className="col-md-6">
                                                 <label className="form-label">Email Address</label>
                                                 <input
@@ -111,6 +98,17 @@ export default function Contact() {
                                                     name="email"
                                                     placeholder="Your E-mail address"
                                                     value={formData.email}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                             <div className="col-md-6">
+                                                <label className="form-label">Type of Job Interested In*</label>
+                                                <input
+                                                    type="number"
+                                                    className="form-control"
+                                                    name="zipCode"
+                                                    placeholder="City and State or Zip"
+                                                    value={formData.zipCode}
                                                     onChange={handleChange}
                                                 />
                                             </div>
@@ -125,16 +123,8 @@ export default function Contact() {
                                                     onChange={handleChange}
                                                 />
                                             </div>
-                                            <div className="col-md-6">
-                                                <div className="form-check">
-                                                    <input className="form-check-input" type="checkbox" value="" id="checkDefault" />
-                                                    <label className="form-check-label" htmlFor="checkDefault">
-                                                        click here to receive texts
-                                                    </label>
-                                                </div>
-                                            </div>
                                             <div className="col-md-12">
-                                                <label className="form-label">Resume optional</label>
+                                                <label className="form-label">Resume Upload (optional)</label>
                                                 <div className="form_upload_file">
                                                     <input
                                                         className="form-control"
@@ -166,9 +156,10 @@ export default function Contact() {
                         <div className="row align-items-center">
                             <div className="col-7">
                                 <h2 className="section-title">
-                                    need help with your resume?
+                                    Call To Action
+
                                 </h2>
-                                <p className="mb-0">Lorem ipsum dolor sit amet consectetur. Eu ante cursus justo lectus ac mauris Venenatis vel risus pretium diam aliquam.</p>
+                                <p className="mb-0">Interested? Let’s Talk! Connect with our team today to discuss how our tailored staffing services can empower your career growth.</p>
                             </div>
                             <div className="col-lg-5 text-end">
                                 <Image src="/images/need-resume.png" className="" width={360} height={313} alt="" />

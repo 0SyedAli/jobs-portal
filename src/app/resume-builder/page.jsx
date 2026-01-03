@@ -22,8 +22,7 @@ export default function About() {
                                 </h2>
                             </div>
                             <div className="col-lg-8">
-                                <p className="mb-1 text-black">Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam.</p>
-                                <p>Facilisi luctus neque ligula mauris senectus ac nam netus massa. A vivamus ultrices neque neque iaculis tellus id nec. Tristique diam at elementum vel eu enim. Tristique eget ipsum nisl facilisis scelerisque amet. Id viverra nulla penatibus malesuada adipiscing tellus in. Et sem vitae odio proin pulvinar vulputate.</p>
+                                <p className="mb-1 text-black">At People Index Hub, our Resume Builder is designed to help professionals present their experience with clarity, confidence, and market relevance. We combine hiring expertise with smart tools to ensure your resume reflects what employers are actively seeking today.</p>
                             </div>
                         </div>
                     </div>
@@ -34,26 +33,26 @@ export default function About() {
                         <div className="row g-3 flex-nowrap">
                             <div className="col-sm-3">
                                 <div className="category-card">
-                                    <h6 className="category-title">Data-Driven Decision Making</h6>
-                                    <p>We use performance reviews, historical data, and predictive evaluations to recognize candidates who have the skills and mindset to thrive. This approach supports smart hiring decisions based on objective insights.</p>
+                                    <h6 className="category-title">Effortlessly Create Your Resume</h6>
+                                    <p>Build a professional resume quickly using guided steps and proven structures. Our platform removes guesswork and ensures your resume is clear, organized, and impactful.</p>
                                 </div>
                             </div>
                             <div className="col-sm-3">
                                 <div className="category-card">
-                                    <h6 className="category-title">Comprehensive Evaluation</h6>
-                                    <p>Through interviews, assessments, skill reviews, and situational testing, we gain a clear understanding of each candidates strengths, experience, and potential.</p>
+                                    <h6 className="category-title">Your Competitive Resume Is Yours To Keep</h6>
+                                    <p>Once created, your resume is fully yours. Download, update, and reuse it anytime without restrictions, giving you long-term value and flexibility.</p>
                                 </div>
                             </div>
                             <div className="col-sm-3">
                                 <div className="category-card">
-                                    <h6 className="category-title">Balanced Data & Intuition</h6>
-                                    <p>While data provides valuable insight, experience and intuition also play an important role in identifying cultural fit and leadership qualities. Our hiring framework blends both to support more successful outcomes.</p>
+                                    <h6 className="category-title">Quickly Apply To Jobs With Your New Resume</h6>
+                                    <p>Apply to relevant opportunities faster with a resume that aligns with employer expectations. Spend less time editing and more time connecting with opportunities.</p>
                                 </div>
                             </div>
                             <div className="col-sm-3">
                                 <div className="category-card">
-                                    <h6 className="category-title">Diverse Candidate Pool</h6>
-                                    <p>We work to ensure the recruitment process remains inclusive and fair by promoting diversity and encouraging applications from underrepresented groups.</p>
+                                    <h6 className="category-title">Get Jobs Sent Straight To Your Inbox</h6>
+                                    <p>Receive job alerts matched to your resume and preferences. Stay informed about new roles without constantly searching.</p>
                                 </div>
                             </div>
                         </div>

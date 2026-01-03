@@ -22,7 +22,7 @@ export default function About() {
                                     handling uncertainty
                                 </h2>
                                 <p className="mb-0">
-                                    Lorem ipsum dolor sit amet consectetur. Porttitor erat eget sit turpis libero duis sed semper laoreet. Eget sit felis consequat a. Tincidunt ullamcorper et nec maecenas dui pulvinar blandit. Nisi amet molestie massa amet amet nisl in aliquam. Duis quis integer elementu
+                                    In a rapidly changing market, workforce uncertainty is inevitable. People Index Hub helps organizations stay resilient by providing flexible staffing models that adapt to shifting business demands. Our approach ensures continuity, stability, and access to skilled professionals exactly when you need them.
                                 </p>
                             </div>
                             <div className="col-lg-6 text-center  ps-5">
@@ -36,7 +36,8 @@ export default function About() {
                                     deal with demand
                                 </h2>
                                 <p className="mb-0">
-                                    Lorem ipsum dolor sit amet consectetur. Porttitor erat eget sit turpis libero duis sed semper laoreet. Eget sit felis consequat a. Tincidunt ullamcorper et nec maecenas dui pulvinar blandit. Nisi amet molestie massa amet amet nisl in aliquam. Duis quis integer elementu
+                                    Fluctuating demand should never slow your growth. We support businesses with scalable staffing solutions that allow you to expand or adjust your workforce efficiently. From short term surges to long term growth plans, our solutions keep your operations running smoothly.
+
                                 </p>
                             </div>
                             <div className="col-lg-5 text-start">
@@ -44,7 +45,8 @@ export default function About() {
                                     recruit with agility
                                 </h2>
                                 <p className="mb-0">
-                                    Lorem ipsum dolor sit amet consectetur. Porttitor erat eget sit turpis libero duis sed semper laoreet. Eget sit felis consequat a. Tincidunt ullamcorper et nec maecenas dui pulvinar blandit. Nisi amet molestie massa amet amet nisl in aliquam. Duis quis integer elementu
+                                    Speed and precision are critical in today’s hiring landscape. Our agile recruitment process connects you with qualified talent quickly while maintaining high quality standards. Whether you need temporary, contract to hire, or permanent placements, we deliver talent that fits.
+
                                 </p>
                             </div>
                             <div className="col-lg-6 text-center  ps-5">
@@ -60,10 +62,10 @@ export default function About() {
                         <div className="row align-items-end">
                             <div className="col-9">
                                 <h2 className="section-title mb-4" style={{ fontSize: "50px" }}>
-                                    contact us to start a conversation about your needs
+                                    Start The Conversation
                                 </h2>
                                 <p className="mb-0">
-                                    Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula.
+                                    Ready to build a workforce strategy that evolves with your business? Contact People Index Hub to discuss your staffing needs and discover how flexible to permanent staffing can drive long term success.
                                 </p>
                             </div>
                             <div className="col-3 text-end">

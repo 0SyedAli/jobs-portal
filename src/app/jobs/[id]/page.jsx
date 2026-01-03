@@ -30,17 +30,18 @@ export default function JobDetailPage() {
     description:
       "Nous sed purus purus. Sed sed lorem labore illum labore nullam labore illum labore malesuada lorem ets.",
     responsibilities: [
-      "Lorem seed purus purus. Sed sed lorem labore illum labore nullam labore illum labore malesuada lorem ets",
-      "Nos sed purus purus. Sed sed lorem labore illum labore nullam labore illum labore malesuada lorem ets",
-      "Lorem seed purus purus. Sed sed lorem labore illum labore nullam labore illum labore malesuada lorem ets",
-      "Nos sed purus purus. Sed sed lorem labore illum labore nullam labore illum labore malesuada lorem ets",
-      "Lorem seed purus purus. Sed sed lorem labore illum labore nullam labore illum labore malesuada lorem ets",
+      "Develop and manage corporate client relationships",
+      "Identify business needs and propose effective solutions",
+      "Collaborate with internal teams to deliver client objectives",
+      "Monitor performance metrics and optimize engagement strategies",
+      "Support long term client growth initiatives",
     ],
     requiredSkills: [
-      "Lorem seed purus purus. Sed sed lorem labore illum labore nullam labore illum labore malesuada lorem ets",
-      "Nos sed purus purus. Sed sed lorem labore illum labore nullam labore illum labore malesuada lorem ets",
-      "Lorem seed purus purus. Sed sed lorem labore illum labore nullam labore illum labore malesuada lorem ets",
-      "Nos sed purus purus. Sed sed lorem labore illum labore nullam labore illum labore malesuada lorem ets",
+      "Strong communication and negotiation skills",
+      "Strategic thinking and problem solving ability",
+      "Experience in corporate sales or account management",
+      "Ability to work cross functionally with diverse teams",
+      "Strong analytical and reporting skills",
     ],
     tags: ["Management", "Leadership", "Data entry", "Strategy", "Teamwork"],
   }
@@ -48,7 +49,7 @@ export default function JobDetailPage() {
   const relatedJobs = [
     {
       id: 1,
-      title: "Forward Security Director",
+      title: "Internal Creative Coordinator",
       company: "Nexus Group",
       location: "New York, USA",
       salary: "$80K - $120K",
@@ -61,9 +62,9 @@ export default function JobDetailPage() {
     },
     {
       id: 2,
-      title: "Regional Creative Facilitator",
+      title: "District Intranet Director",
       company: "Universal Inc",
-      location: "Los Angeles, USA",
+      location: "New York, USA",
       salary: "$70K - $100K",
       jobType: "Full Time",
       category: "Commerce",
@@ -74,9 +75,9 @@ export default function JobDetailPage() {
     },
     {
       id: 3,
-      title: "Internal Integration Planner",
+      title: "Corporate Tactics Facilitator ",
       company: "Careway",
-      location: "Houston, USA",
+      location: "New York, USA",
       salary: "$75K - $110K",
       jobType: "Full Time",
       category: "Construction",
@@ -160,8 +161,7 @@ export default function JobDetailPage() {
                 {/* Description */}
                 <div className="mb-4">
                   <h3 style={{ fontSize: "24px", fontWeight: "bold", marginBottom: "20px" }}>Job Description</h3>
-                  <p>Nunc sed a nisl purus. Nibh dis faucibus proin lacus tristique. Sit congue non vitae odio sit erat in. Felis eu ultrices a sed massa. Commodo fringilla sed tempor risus laoreet ultricies ipsum. Habitasse morbi faucibus in iaculis lectus. Nisi enim feugiat enim volutpat. Sem quis viverra viverra odio mauris nunc. </p>
-                  <p>Et nunc ut tempus duis nisl sed massa. Ornare varius faucibus nisi vitae vitae cras ornare. Cras facilisis dignissim augue lorem amet adipiscing cursus fames mauris. Tortor amet porta proin in. Orci imperdiet nisi dignissim pellentesque morbi vitae. Quisque tincidunt metus lectus porta eget blandit euismod sem nunc. Tortor gravida amet amet sapien mauris massa.Tortor varius nam maecenas duis blandit elit sit sit. Ante mauris morbi diam habitant donec.</p>
+                  <p>We are seeking a Corporate Solutions Executive to drive strategic business solutions for our clients. This role requires strong commercial acumen, relationship management skills, and the ability to align client objectives with tailored solutions that deliver measurable outcomes.</p>
                 </div>
 
                 {/* Key Responsibilities */}

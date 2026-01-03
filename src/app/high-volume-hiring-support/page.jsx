@@ -23,8 +23,7 @@ export default function About() {
                                 </h2>
                             </div>
                             <div className="col-lg-7">
-                                <p className="mb-1 text-black">Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam.</p>
-                                <p>Facilisi luctus neque ligula mauris senectus ac nam netus massa. A vivamus ultrices neque neque iaculis tellus id nec. Tristique diam at elementum vel eu enim. Tristique eget ipsum nisl facilisis scelerisque amet. Id viverra nulla penatibus malesuada adipiscing tellus in. Et sem vitae odio proin pulvinar vulputate.</p>
+                                <p className="mb-0 text-black">Our high-volume hiring solutions help organizations scale their workforce efficiently while maintaining quality, speed, and compliance.</p>
                             </div>
                         </div>
                     </div>
@@ -56,7 +55,7 @@ export default function About() {
                                             <div className="col-md-5 mb-4 card-wrapper">
                                                 <div className="position-card regular-card featured-card2" style={{ padding: "40px 20px" }}>
                                                     <h5 className="position-title p-0">
-                                                        job interviews
+                                                        Enhance worker engagement
                                                     </h5>
                                                 </div>
                                             </div>
@@ -64,14 +63,14 @@ export default function About() {
                                             <div className="col-md-5 mb-4 card-wrapper">
                                                 <div className="position-card regular-card featured-card2" style={{ padding: "40px 20px" }}>
                                                     <h5 className="position-title p-0">
-                                                        job search tips
+                                                        Customized workforce solutions
                                                     </h5>
                                                 </div>
                                             </div>
                                             <div className="col-md-5 mb-4 card-wrapper">
                                                 <div className="position-card regular-card featured-card2" style={{ padding: "40px 20px" }}>
                                                     <h5 className="position-title p-0 long-title">
-                                                        career development
+                                                        Leverage advanced HR technology
                                                     </h5>
                                                 </div>
                                             </div>
@@ -97,7 +96,7 @@ export default function About() {
                                     contact us to start a conversation about your needs
                                 </h2>
                                 <p className="mb-0">
-                                    Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula.
+                                    Reach out to us to start a simple, no-pressure conversation about what you’re looking for. We’ll listen, ask the right questions, and help you figure out the best next steps—no matter where you’re starting from.
                                 </p>
                             </div>
                             <div className="col-3 text-end">
@@ -114,9 +113,10 @@ export default function About() {
 
                         <div className="accordion" id="faqAccordion">
                             {[
-                                { q: "you’ve got what it takes!", a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?" },
-                                { q: "reach your full potential with a dedicated partner for talent", a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?" },
-                                { q: "Dostay at the top of your game and excel in your field", a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?" },
+                                { q: "Reduce Your Total Hiring Costs", a: "We help organizations minimize recruitment expenses while improving speed-to-hire and workforce performance." },
+                                { q: "How We Reduce Your Costs", a: "Through optimized hiring workflows, technology-driven screening, and scalable recruitment strategies tailored to your business needs." },
+                                { q: "Engage Talent With a Positive Work Experience", a: "We create meaningful candidate experiences that boost retention, performance, and long-term engagement." },
+                                { q: "How We Engage Talent", a: "Our engagement strategy combines communication, support, and performance tracking to deliver a motivated workforce." },
                             ].map((item, idx) => (
                                 <div key={idx} className="accordion-item">
                                     <h2 className="accordion-header">

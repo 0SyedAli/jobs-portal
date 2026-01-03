@@ -503,7 +503,7 @@ export default function JobsListingPage() {
                                         Top Company
                                     </h2>
                                     <p className="mb-0  text-white">
-                                        At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum
+                                        Discover opportunities with top companies actively hiring. Explore open positions from recognized global brands and growing organizations across multiple sectors.
                                     </p>
                                 </div>
                             </div>
