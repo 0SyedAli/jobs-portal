@@ -1,6 +1,4 @@
 "use client";
-import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -30,7 +28,7 @@ export default function Contact() {
 
   return (
     <>
-      <Navbar />
+      
       <div className="contact-wrapper">
         {/* Hero Section */}
         <div className="contact-hero">
@@ -378,7 +376,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <Footer />
+      
     </>
   );
 }

@@ -1,7 +1,4 @@
 "use client"
-
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
 import { useState } from "react"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
@@ -169,7 +166,6 @@ export default function JobsListingPage() {
 
     return (
         <>
-            <Navbar />
 
             <div className="educators-wrapper jobs-wrapper">
                 {/* Hero Section */}
@@ -557,7 +553,6 @@ export default function JobsListingPage() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

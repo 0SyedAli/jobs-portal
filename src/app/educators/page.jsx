@@ -1,12 +1,9 @@
 "use client"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
 import Image from "next/image"
 
 export default function Educators() {
     return (
         <>
-            <Navbar />
 
             <div className="educators-wrapper">
                 {/* Hero Section */}
@@ -85,9 +82,16 @@ export default function Educators() {
                 <div className="blog-section">
                     <div className="container">
                         <div className="d-flex justify-content-center align-items-center mb-4">
-                            <div className="col-lg-9 mb-4 mb-lg-0 text-center">
-                                <h2 className="section-title">News and Blog</h2>
+                            <div className="col-lg-12 mb-4 mb-lg-0 text-center">
                                 {/* <p className="mb-0">Meet the dedicated professionals behind the Community Wellness Project, a team of experts passionate about empowering educational institutions to thrive and making a lasting impact on the lives of students.</p> */}
+                                <div>
+                                    <h2 className="section-title">News and Blog</h2>
+                                    <div className="d-flex justify-content-end align-items-center mb-4">
+                                        <a href="/blogs" className="view-all-link text-decoration-underline">
+                                            View all
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="row g-4">
@@ -126,7 +130,6 @@ export default function Educators() {
                 </div>
             </div>
 
-            <Footer />
         </>
     )
 }

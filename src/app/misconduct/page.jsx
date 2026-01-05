@@ -1,11 +1,9 @@
 "use client";
-import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
 
 export default function About() {
   return (
     <>
-      <Navbar />
+      
 
       <div className="about-wrapper about-wrapper2">
         {/* Hero Section */}
@@ -141,7 +139,7 @@ export default function About() {
         </section>
       </div>
 
-      <Footer />
+      
     </>
   );
 }

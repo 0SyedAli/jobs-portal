@@ -1,12 +1,12 @@
 "use client";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+
+
 import Image from "next/image";
 
 export default function Educators() {
   return (
     <>
-      <Navbar />
+      
 
       <div className="educators-wrapper">
         {/* Hero Section */}
@@ -170,7 +170,7 @@ export default function Educators() {
         </div>
       </div>
 
-      <Footer />
+      
     </>
   );
 }

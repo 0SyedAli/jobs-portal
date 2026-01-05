@@ -1,7 +1,4 @@
 "use client"
-
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
 import { useState } from "react"
 import { useParams } from "next/navigation"
 import Image from "next/image"
@@ -90,7 +87,7 @@ export default function JobDetailPage() {
 
   return (
     <>
-      <Navbar />
+      
       <div className="educators-wrapper jobs-wrapper ">
         {/* Hero Section */}
         <section className="hero-section">
@@ -361,7 +358,7 @@ export default function JobDetailPage() {
         </div>
       </div>
 
-      <Footer />
+      
     </>
   )
 }

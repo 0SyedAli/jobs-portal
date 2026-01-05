@@ -1,11 +1,7 @@
 "use client"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
-
 export default function TermsConditions() {
     return (
         <>
-            <Navbar />
 
             <div className="educators-wrapper">
                 {/* Hero Section */}
@@ -147,7 +143,6 @@ export default function TermsConditions() {
                 </div>
             </div>
 
-            <Footer />
         </>
     )
 }

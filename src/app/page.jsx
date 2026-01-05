@@ -1,5 +1,3 @@
-import Footer from "@/component/footer";
-import Navbar from "@/component/navbar";
 import Image from "next/image";
 import Link from "next/link";
 import { IoSearchSharp } from "react-icons/io5";
@@ -8,7 +6,7 @@ import { IoSearchSharp } from "react-icons/io5";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      
       {/* Hero Section */}
       <div className="hero-section home-hero-section text-white text-center">
         <div className="container">
@@ -229,7 +227,7 @@ export default function Home() {
         <div className="container">
           <div className="d-flex justify-content-between align-items-center mb-4">
             <h2 className="section-title-small">discover more insights</h2>
-            <a href="#" className="view-all-link text-decoration-underline">
+            <a href="/blogs" className="view-all-link text-decoration-underline">
               View all
             </a>
           </div>
@@ -269,7 +267,7 @@ export default function Home() {
         </div>
       </div>
 
-      <Footer />
+      
     </>
   );
 }

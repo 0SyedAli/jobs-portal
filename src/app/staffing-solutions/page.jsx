@@ -1,6 +1,4 @@
 "use client";
-import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Link from "next/link";
 import { IoCheckmarkOutline } from "react-icons/io5";
@@ -8,7 +6,6 @@ import { IoCheckmarkOutline } from "react-icons/io5";
 export default function About() {
     return (
         <>
-            <Navbar />
             <div className="about-wrapper">
                 {/* Hero Section */}
                 <div className="hero-section">
@@ -168,7 +165,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 }

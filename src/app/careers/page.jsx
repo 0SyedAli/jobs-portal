@@ -1,6 +1,4 @@
 "use client";
-import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -26,7 +24,6 @@ export default function Contact() {
 
     return (
         <>
-            <Navbar />
             <div className="contact-wrapper">
                 {/* Hero Section */}
                 <div className="contact-hero">
@@ -134,7 +131,7 @@ export default function Contact() {
                 </div>
 
                 {/* Map Section */}
-                <div className="map-section">
+                {/* <div className="map-section">
                     <div className="container-fluid px-0 ">
                         <div className="map-box">
                             <iframe
@@ -145,7 +142,7 @@ export default function Contact() {
                             ></iframe>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Evidence Based Approach */}
                 <div className="evidence-approach-section car-eas">
@@ -176,7 +173,6 @@ export default function Contact() {
                     </div>
                 </div>
             </div >
-            <Footer />
         </>
     );
 }
