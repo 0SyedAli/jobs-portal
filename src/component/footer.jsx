@@ -3,103 +3,99 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: "#1a1a1a", color: "#ffffff", paddingTop: "60px", paddingBottom: "30px" }}>
+    <footer className="hybrid-footer">
       <div className="container">
-        <div className="row mb-5">
-          <div className="col-md-5 pe-5">
-            <Link className="" href="/">
-              <Image src="/images/footer-logo.png" style={{ objectFit: "contain", marginBottom:"30px"}} width={116} height={60} alt="" />
-            </Link>
-            <p style={{ color: "#c2c2c2", fontSize: "20px", fontFamily: "var(--font-lexend)" }}>
-              Empowering professionals with reliable staffing solutions resources and employment guidance.
+
+        <div className="row footer-top">
+
+          {/* BRAND */}
+          <div className="col-lg-3">
+            <Image src="/images/footer-logo.png" width={130} height={70} alt="People Index Hub" />
+            <p className="footer-desc">
+              Empowering professionals with reliable staffing solutions,
+              resources and employment guidance.
             </p>
           </div>
-          <div className="col-md-2">
-            <h5>Company</h5>
-            <ul style={{ listStyle: "none", padding: 0 }}>
-              <li>
-                <a href="/about" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  Our Team
-                </a>
-              </li>
-              <li>
-                <a href="/partner-talent" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  Partners
-                </a>
-              </li>
-              <li>
-                <a href="#" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  For Candidates
-                </a>
-              </li>
-              <li>
-                <a href="#" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  For Employers
-                </a>
-              </li>
+
+          {/* FIND A JOB */}
+          <div className="col-lg-2">
+            <h6>Find a job</h6>
+            <ul>
+              <li><Link href="/jobs">all jobs</Link></li>
+              <li><Link href="/best-jobs">best jobs</Link></li>
+              <li><Link href="/salary-guide">salary guide</Link></li>
+              <li><Link href="/salary-comparison-tool">salary comparison tool</Link></li>
+              <li><Link href="/career-resources">career resources</Link></li>
+              <li><Link href="/workplace-insight">workplace insight</Link></li>
             </ul>
           </div>
-          <div className="col-md-2">
-            <h5>Job Categories</h5>
-            <ul style={{ listStyle: "none", padding: 0 }}>
-              <li>
-                <a href="#" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  Telecommunications
-                </a>
-              </li>
-              <li>
-                <a href="#" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  Hotels & Tourism
-                </a>
-              </li>
-              <li>
-                <a href="#" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  Construction
-                </a>
-              </li>
-              <li>
-                <a href="/educators" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  Education
-                </a>
-              </li>
-              <li>
-                <a href="#" style={{ color: "#e0e0e0", textDecoration: "none", fontSize: "14px" }}>
-                  Financial Services
-                </a>
-              </li>
+
+          {/* FOR TALENTS */}
+          <div className="col-lg-2">
+            <h6>For talents</h6>
+            <ul>
+              <li><Link href="/submit-your-resume">submit your resume</Link></li>
+              <li><Link href="/resume-builder">resume builder</Link></li>
+              <li><Link href="/careers">careers</Link></li>
+              <li><Link href="/why-work-with-us">why work with us</Link></li>
+              <li><Link href="/mentorship">mentorship</Link></li>
             </ul>
           </div>
-          <div className="col-md-3">
-            <h5>Newsletter</h5>
-            <p style={{ fontSize: "14px", color: "#e0e0e0" }}>
-              Subscribe to our mailing list to receive the latest news, updates, and special offers.
-            </p>
-            <div className="input-group">
-              <input
-                type="email"
-                className="form-control"
-                placeholder="Email Address"
-              />
-            </div>
-            <button className="btn btn-primary px-3 w-100 mt-3" style={{ fontWeight: "600", padding: "10px 20px" }}>Subscribe now</button>
+
+          {/* FOR EMPLOYERS */}
+          <div className="col-lg-2">
+            <h6>For employers</h6>
+            <ul>
+              <li><Link href="/staffing-solutions">staffing solutions</Link></li>
+              <li><Link href="/permanent-recruitment">permanent recruitment</Link></li>
+              <li><Link href="/temporary-staffing">temporary staffing</Link></li>
+              <li><Link href="/flexible-to-permanent-staffing">flexible to permanent</Link></li>
+              <li><Link href="/high-volume-hiring-support">high volume hiring</Link></li>
+              <li><Link href="/managed-service-programs">managed service programs</Link></li>
+            </ul>
           </div>
+
+          {/* JOB CATEGORIES */}
+          <div className="col-lg-2">
+            <h6>Job categories</h6>
+            <ul>
+              <li><Link href="/business-administration-jobs">business administration</Link></li>
+              <li><Link href="/human-resources-jobs">human resources</Link></li>
+              <li><Link href="/engineering-design-jobs">engineering & design</Link></li>
+              <li><Link href="/customer-experience-jobs">customer experience</Link></li>
+            </ul>
+          </div>
+
+          {/* ABOUT */}
+          <div className="col-lg-1">
+            <h6>About</h6>
+            <ul>
+              <li><Link href="/about">about us</Link></li>
+              <li><Link href="/educators">educators</Link></li>
+              <li><Link href="/partner-talent">partners</Link></li>
+              <li><Link href="/find-employees">find employees</Link></li>
+              <li><Link href="/blogs">blogs</Link></li>
+            </ul>
+          </div>
+
         </div>
-        <div className="row" style={{ borderTop: "1px solid #333", paddingTop: "20px" }}>
-          <div className="col-8">
-            <small style={{ color: "#d8d8d8", fontSize: "13px" }}>
-              PEOPLE INDEX HUB | <Link href="/misconduct" >misconduct reporting</Link> | <Link href="/job-scams" >avoid job scams</Link>  | <Link href="/terms-and-condition" >terms of service</Link>  | <Link href="/accessibility-statement" >accessibility statement</Link> | <Link href="/privacy-policy" >privacy policy</Link>  | <Link href="#!" >report security problem</Link>
-            </small>
+
+        {/* BOTTOM */}
+        <div className="footer-bottom">
+          <div className="footer-links">
+            <Link href="/contact">contact</Link>
+            <Link href="/contact-people-index">contact people index</Link>
+            <Link href="/privacy-policy">privacy policy</Link>
+            <Link href="/terms-and-condition">terms & conditions</Link>
+            <Link href="/accessibility-statement">accessibility</Link>
+            <Link href="/misconduct">misconduct reporting</Link>
+            <Link href="/job-scams">job scams</Link>
           </div>
-          <div className="col-4">
-            <small style={{ color: "#d8d8d8", fontSize: "13px" }}>Copyright © 2025 PEOPLE INDEX HUB</small>
-          </div>
+
+          <p>© 2025 People Index Hub. All rights reserved.</p>
         </div>
+
       </div>
-    </footer >
-  )
+    </footer>
+  );
 }
