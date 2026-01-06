@@ -251,7 +251,6 @@ export default function Home() {
                   <div className="b_label">{post.label}</div>
                   <Image src={post.img} width={500} height={500} alt="" />
                   <div className="b_content">
-                    {date && <small className="blog-date">{post.date}</small>}
                     <h6 className="blog-title">{post.title}</h6>
                     <p className="blog-para">{post.para}</p>
                     <a href="/blogs" className="read-more-link">
