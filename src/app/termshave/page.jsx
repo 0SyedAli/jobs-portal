@@ -21,16 +21,34 @@ export default function Educators() {
                                     have you identified a security problem?
                                 </h2>
                                 <p className="mb-3">
-                                    Lorem ipsum dolor sit amet consectetur. Leo eget pellentesque elementum enim. Faucibus elementum justo et eu in dui in a ut. Vitae elementum ullamcorper habitasse aenean condimentum. Arcu pellentesque leo et eu nec. Ut rhoncus odio penatibus arcu eget aliquet. Tellus pretium turpis et ut faucibus id duis feugiat sit. Turpis fermentum feugiat bibendum nunc tempus. Non amet consequat eget ut curabitur in nisl auctor. Ornare non vitae purus orci id porttitor fames ac. Odio laoreet ut neque bibendum diam pulvinar. Quisque odio dui elit tellus morbi lectus. Porta rhoncus ut semper commodo massa ac pulvinar fames.
-                                    Ultricies lobortis pulvinar semper mi ornare. Facilisis eu cursus donec a nulla massa eu. Viverra ullamcorper consequat mattis id feugiat. Quis cras neque justo consequat eu aenean ac. Consectetur lorem gravida commodo amet lectus. Metus pretium nisl dignissim lacus semper facilisis id. Sed aliquet eu dictum ut vitae scelerisque risus amet. Tristique lobortis rutrum ornare odio eget rhoncus viverra. Venenatis morbi fringilla nunc quam. Nam dui quis mollis vulputate ultrices euismod amet lacus. Cursus venenatis aenean sed neque eget. Viverra lacinia eleifend aliquam massa.
+                                    At People Index Hub, the security of our platform, data, and users is a
+                                    top priority. If you believe you have discovered a security
+                                    vulnerability, data exposure risk, or any suspicious activity related
+                                    to our website or services, we encourage you to report it responsibly.
                                 </p>
                                 <p className="mb-3">
-                                    Consectetur tempor nisi vulputate sapien volutpat. Volutpat pellentesque parturient quis facilisis tellus sed. Metus arcu quam mi nec sed sem tellus nec aenean. In ipsum in ac enim duis vel. Ullamcorper iaculis pharetra pretium consectetur. Scelerisque feugiat facilisis ut velit vulputate. Placerat cursus urna quam et sagittis eu adipiscing sed. Velit eleifend et eget eget. Pretium egestas sagittis sit ipsum amet non tincidunt mauris.
-                                    Sed sit eu eget sit dolor. Malesuada condimentum nulla sit mattis massa hendrerit mi aliquam dui. Nulla amet sed vulputate dui pellentesque orci arcu nunc. Turpis molestie proin diam in fermentum nibh fringilla cursus eget. Fermentum pulvinar duis leo tristique pellentesque ut. In eleifend vel sit consequat morbi nulla. Faucibus urna elit non consectetur sed etiam in nisi lectus. Pretium scelerisque in aliquet aliquet. Sagittis nisi sapien laoreet eget. Nunc at neque scelerisque est vel commodo. Laoreet senectus integer consequat neque. Feugiat nulla cras faucibus sed. Lacinia rhoncus laoreet molestie vitae risus. Sed quis est lacus nulla. Metus diam nulla orci faucibus.
+                                    Security issues may include, but are not limited to, unauthorized
+                                    access, data leaks, account compromise, system vulnerabilities, or
+                                    misuse of platform features. Reporting these issues helps us take
+                                    timely action to protect our users, partners, and systems.
+                                </p>
+                                <p className="mb-3">
+                                    When submitting a security report, please provide clear details such
+                                    as the affected page or feature, steps to reproduce the issue, and any
+                                    supporting evidence if available. This information allows our
+                                    technical team to investigate and resolve the matter efficiently.
+                                </p>
+                                <p className="mb-3">
+                                    We ask that security issues are reported privately and not disclosed
+                                    publicly until we have had sufficient time to assess and address the
+                                    concern. This responsible approach helps prevent potential misuse and
+                                    protects all users of the platform.
                                 </p>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur. Leo eget pellentesque elementum enim. Faucibus elementum justo et eu in dui in a ut. Vitae elementum ullamcorper habitasse aenean condimentum. Arcu pellentesque leo et eu nec. Ut rhoncus odio penatibus arcu eget aliquet. Tellus pretium turpis et ut faucibus id duis feugiat sit. Turpis fermentum feugiat bibendum nunc tempus. Non amet consequat eget ut curabitur in nisl auctor. Ornare non vitae purus orci id porttitor fames ac. Odio laoreet ut neque bibendum diam pulvinar. Quisque odio dui elit tellus morbi lectus. Porta rhoncus ut semper commodo massa ac pulvinar fames.
-                                    Ultricies lobortis pulvinar semper mi ornare. Facilisis eu cursus donec a nulla massa eu. Viverra ullamcorper consequat mattis id feugiat. Quis cras neque justo consequat eu aenean ac. Consectetur lorem gravida commodo amet lectus. Metus pretium nisl dignissim lacus semper facilisis id. Sed aliquet eu dictum ut vitae scelerisque risus amet. Tristique lobortis rutrum ornare odio eget rhoncus viverra. Venenatis morbi fringilla nunc quam. Nam dui quis mollis vulputate ultrices euismod amet lacus. Cursus venenatis aenean sed neque eget. Viverra lacinia eleifend aliquam massa.
+                                    If you have identified a security concern, please contact us through
+                                    our official reporting channels. We appreciate your effort in helping
+                                    us maintain a secure, reliable, and trusted environment for everyone
+                                    using People Index Hub.
                                 </p>
                             </div>
                         </div>

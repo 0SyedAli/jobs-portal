@@ -146,9 +146,9 @@ export default function About() {
                             <div className="col-5">
                                 <div className="rtu-left text-black">
                                     <h2 className="section-title">
-                                        ready to find your next challenge?
+                                        Reduce Your Total Hiring Costs
                                     </h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. </p>
+                                    <p>We help organizations minimize recruitment expenses while improving speed-to-hire and workforce performance.</p>
                                     <div className="btn btn-theme3">submit your resume</div>
                                 </div>
                             </div>
@@ -173,10 +173,7 @@ export default function About() {
                         <h2>how we reduce your costs </h2>
                         {/* <h3 className="text-capitalize text-center fs-2 mb-4">finding daily shifts fast and easy</h3> */}
                         <p className="subtitle mb-1">
-                            Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam. </p>
-                        <p className="subtitle mb-1">Facilisi luctus neque ligula mauris senectus ac nam netus massa. A vivamus ultrices neque neque iaculis tellus id nec. Tristique diam at elementum vel eu enim. Tristique eget ipsum nisl facilisis scelerisque amet. Id viverra nulla penatibus malesuada adipiscing tellus in. Et sem vitae odio proin pulvinar vulputate.</p>
-                        <p className="subtitle mb-0">Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam.
-                        </p>
+                            Through optimized hiring workflows, technology-driven screening, and scalable recruitment strategies tailored to your business needs.</p>
                     </div>
                 </div >
 
@@ -207,7 +204,7 @@ export default function About() {
                                     engage talent with a positive work experience
                                 </h2>
                                 <p className="mb-5">
-                                    Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam.Considering venturing into entrepreneurship? Take advantage of our comprehensive mentorship programs designed to support you every step of the way on your entrepreneurial journey.
+                                    We create meaningful candidate experiences that boost retention, performance, and long-term engagement.
                                 </p>
                                 <div className="btn btn-theme2 px-4">get in touch today</div>
                             </div>
@@ -224,8 +221,7 @@ export default function About() {
                                 </h2>
                             </div>
                             <div className="col-lg-7">
-                                <p className="mb-1 text-black">Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam.</p>
-                                <p>Facilisi luctus neque ligula mauris senectus ac nam netus massa. A vivamus ultrices neque neque iaculis tellus id nec. Tristique diam at elementum vel eu enim. Tristique eget ipsum nisl facilisis scelerisque amet. Id viverra nulla penatibus malesuada adipiscing tellus in. Et sem vitae odio proin pulvinar vulputate.</p>
+                                <p>Our engagement strategy combines communication, support, and performance tracking to deliver a motivated workforce.</p>
                             </div>
                         </div>
                     </div>

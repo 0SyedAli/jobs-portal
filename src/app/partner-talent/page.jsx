@@ -126,21 +126,22 @@ export default function About() {
                         <div className="row g-4">
                             {[
                                 {
+
                                     img: "/images/blog2.jpg",
-                                    date: "30 March 2024",
-                                    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                                    title: "Thirty March Two Thousand Twenty Four",
+                                    para: "Revitalizing Workplace Morale Innovative Tactics For Boosting Employee Engagement in Two Thousand Twenty Four",
                                     label: "news"
                                 },
                                 {
                                     img: "/images/blog1.jpg",
-                                    date: "30 March 2024",
-                                    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-                                    label: "news"
+                                    title: "Thirty March Two Thousand Twenty Four",
+                                    para: "How To Avoid The Top Six Most Common Job Interview Mistakes",
+                                    label: "blog"
                                 },
                                 {
-                                    img: "/images/blog1.jpg",
-                                    date: "30 March 2024",
-                                    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                                    img: "/images/blog2.jpg",
+                                    title: "Thirty March Two Thousand Twenty Four",
+                                    para: "Revitalizing Workplace Morale Innovative Tactics For Boosting Employee Engagement in Two Thousand Twenty Four",
                                     label: "news"
                                 },
                             ].map((post, idx) => (
@@ -151,7 +152,8 @@ export default function About() {
                                         <div className="b_content">
                                             <small className="blog-date">{post.date}</small>
                                             <h6 className="blog-title">{post.title}</h6>
-                                            <a href="#" className="read-more-link">
+                                            <h6 className="blog-para">{post.para}</h6>
+                                            <a href="/blogs" className="read-more-link">
                                                 Read more →
                                             </a>
                                         </div>

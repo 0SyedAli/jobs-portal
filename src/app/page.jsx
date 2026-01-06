@@ -226,7 +226,7 @@ export default function Home() {
       <div className="blog-section">
         <div className="container">
           <div className="d-flex justify-content-between align-items-center mb-4">
-            <h2 className="section-title-small">discover more insights</h2>
+            <h2 className="section-title-small">Discover More Insights</h2>
             <a href="/blogs" className="view-all-link text-decoration-underline">
               View all
             </a>
@@ -235,16 +235,14 @@ export default function Home() {
             {[
               {
                 img: "/images/blog1.jpg",
-                date: "30 March 2024",
                 title: "Thirty March Two Thousand Twenty Four",
-                para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
+                para: "Revitalizing Workplace Morale Innovative Tactics For Boosting Employee Engagement in Two Thousand Twenty Four",
                 label: "news"
               },
               {
                 img: "/images/blog2.jpg",
-                date: "30 March 2024",
                 title: "Thirty March Two Thousand Twenty Four",
-                para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
+                para: "How To Avoid The Top Six Most Common Job Interview Mistakes",
                 label: "blog"
               },
             ].map((post, idx) => (
@@ -253,10 +251,10 @@ export default function Home() {
                   <div className="b_label">{post.label}</div>
                   <Image src={post.img} width={500} height={500} alt="" />
                   <div className="b_content">
-                    <small className="blog-date">{post.date}</small>
+                    {date && <small className="blog-date">{post.date}</small>}
                     <h6 className="blog-title">{post.title}</h6>
                     <p className="blog-para">{post.para}</p>
-                    <a href="#" className="read-more-link">
+                    <a href="/blogs" className="read-more-link">
                       Read more →
                     </a>
                   </div>

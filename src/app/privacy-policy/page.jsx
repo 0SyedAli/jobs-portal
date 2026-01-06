@@ -219,9 +219,9 @@ export default function PrivacyPolicy() {
                         <div className="row align-items-center">
                             <div className="col-7">
                                 <h2 className="section-title">
-                                    need help with your resume?
+                                    Interested? Let’s Talk!
                                 </h2>
-                                <p className="mb-0">Lorem ipsum dolor sit amet consectetur. Eu ante cursus justo lectus ac mauris Venenatis vel risus pretium diam aliquam.</p>
+                                <p className="mb-0">Whether you are hiring, job searching, or exploring workforce solutions, we are ready to support you. Reach out today and let us discuss how People Index Hub can help you move forward with confidence.</p>
                             </div>
                             <div className="col-lg-5 text-end">
                                 <Image src="/images/need-resume.png" className="" width={360} height={313} alt="" />

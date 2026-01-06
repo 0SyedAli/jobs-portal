@@ -24,38 +24,35 @@ export default function About() {
                             {[
                                 {
                                     img: "/images/blog2.jpg",
-                                    title: "it's free",
-                                    label: "news",
+                                    title: "it is free",
                                     bLi: [
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                                        "Gain full access to expert career guidance at no cost.",
+                                        "Personalized recommendations tailored to your goals.",
+                                        "Immediate support designed to help you move forward with confidence."
                                     ]
                                 },
                                 {
                                     img: "/images/blog1.jpg",
-                                    title: "it's free",
-                                    label: "news",
+                                    title: "One On One Advice",
                                     bLi: [
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                                        "Receive tailored advice from experienced professionals.",
+                                        "Get clarity on the best direction for your next career move.",
+                                        "Improve your confidence through professional guidance.",
                                     ]
                                 },
                                 {
-                                    img: "/images/blog1.jpg",
-                                    title: "it's free",
-                                    label: "news",
+                                    img: "/images/blog2.jpg",
+                                    title: "Expanded Access To Interesting Jobs",
                                     bLi: [
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                                        "Explore diverse opportunities matched to your strengths.",
+                                        "Connect with recruiters who value your unique skill set.",
+                                        "Stay informed about new openings that fit your goals.",
                                     ]
                                 },
                             ].map((post, idx) => (
                                 <div key={idx} className="col-md-4">
                                     <div className="blog_card">
-                                        <div className="b_label">{post.label}</div>
+                                        {label && <div className="b_label">{post.label}</div>}
                                         <Image src={post.img} width={500} height={400} alt="" />
                                         <div className="b_content">
                                             <h6 className="blog-title">{post.title}</h6>
@@ -85,7 +82,10 @@ export default function About() {
                                     <h2 className="section-title">
                                         ready to find your next challenge?
                                     </h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. </p>
+                                    <p>Whether you are looking for flexible work, short-term assignments, or the
+                                        next step in your career, People Index Hub connects you with opportunities
+                                        that match your skills, availability, and goals.
+                                    </p>
                                     <div className="btn btn-theme3">submit your resume</div>
                                 </div>
                             </div>
@@ -110,8 +110,12 @@ export default function About() {
                         <h2>People Index app </h2>
                         <h3 className="text-capitalize text-center fs-2 mb-4">finding daily shifts fast and easy</h3>
                         <p className="subtitle mb-0">
-                            Lorem ipsum dolor sit amet consectetur. Leo eget pellentesque elementum enim. Faucibus elementum justo et eu in dui in a ut. Vitae elementum ullamcorper habitasse aenean condimentum. Arcu pellentesque leo et eu nec. Ut rhoncus odio penatibus arcu eget aliquet. Tellus pretium turpis et ut faucibus id duis feugiat sit. Turpis fermentum feugiat bibendum nunc tempus. Non amet consequat eget ut curabitur in nisl auctor. Ornare non vitae purus orci id porttitor fames ac. Odio laoreet ut neque bibendum diam pulvinar. Quisque odio dui elit tellus morbi lectus. Porta rhoncus ut semper commodo massa ac pulvinar fames.
-                            Ultricies lobortis pulvinar semper mi ornare. Facilisis eu cursus donec a nulla massa eu.
+                            The People Index app makes it simple to find and manage daily shifts in real
+                            time. Browse available opportunities, apply instantly, and stay updated on
+                            your work schedule — all from one easy-to-use platform. Designed for speed,
+                            flexibility, and convenience, the app helps you stay in control of your
+                            work-life balance.
+
                         </p>
                     </div>
                 </div >

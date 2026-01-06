@@ -24,19 +24,19 @@ export default function About() {
                             {[
                                 {
                                     img: "/images/ss_img1.jpg",
-                                    title: "Available Opportunities",
-                                    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?"
+                                    title: "available opportunities",
+                                    para: "Access a wide range of job opportunities across multiple industries. We connect professionals with roles that match their skills, experience, and career goals."
                                 },
                                 {
                                     img: "/images/ss_img2.jpg",
-                                    title: "Career Resources",
-                                    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?"
+                                    title: "career resources",
+                                    para: "Benefit from expert career guidance, resume support, salary insights, and professional development resources designed to help you grow and succeed."
                                 },
                                 {
                                     img: "/images/ss_img3.jpg",
                                     title: "find your closest branch",
-                                    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?"
-                                },
+                                    para: "Connect with our local teams and support networks to receive personalized assistance, local job insights, and on-ground career support."
+                                }
                             ].map((post, idx) => (
                                 <div key={idx} className="col-md-4">
                                     <div className="blog_card">
@@ -121,7 +121,7 @@ export default function About() {
                 </div>
 
                 {/* Evidence Based Features */}
-                <div className="op_terms_bottom" style={{ background: "#F0F0F0", padding:"100px 0" }}>
+                <div className="op_terms_bottom" style={{ background: "#F0F0F0", padding: "100px 0" }}>
                     <div className="container ">
                         <div className="row pb-5">
                             <div className="col-lg-6 mb-4 mb-lg-0 text-start">

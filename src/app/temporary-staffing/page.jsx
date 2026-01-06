@@ -26,32 +26,29 @@ export default function About() {
                             {[
                                 {
                                     img: "/images/blog2.jpg",
-                                    title: "it's free",
-                                    label: "news",
+                                    title: "it is free",
                                     bLi: [
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?"
+                                        "Gain full access to expert career guidance at no cost.",
+                                        "Personalized recommendations tailored to your goals.",
+                                        "Immediate support designed to help you move forward with confidence."
                                     ]
                                 },
                                 {
                                     img: "/images/blog1.jpg",
-                                    title: "it's free",
-                                    label: "news",
+                                    title: "One On One Advice",
                                     bLi: [
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?"
+                                        "Receive tailored advice from experienced professionals.",
+                                        "Get clarity on the best direction for your next career move.",
+                                        "Improve your confidence through professional guidance.",
                                     ]
                                 },
                                 {
-                                    img: "/images/blog1.jpg",
-                                    title: "it's free",
-                                    label: "news",
+                                    img: "/images/blog2.jpg",
+                                    title: "Expanded Access To Interesting Jobs",
                                     bLi: [
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?"
+                                        "Explore diverse opportunities matched to your strengths.",
+                                        "Connect with recruiters who value your unique skill set.",
+                                        "Stay informed about new openings that fit your goals.",
                                     ]
                                 },
                             ].map((post, idx) => (
@@ -94,7 +91,11 @@ export default function About() {
                                     operational talent <br /> solutions
                                 </h2>
                                 <p className="mb-2">
-                                    Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam  Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam
+                                    Our operational talent solutions provide businesses with reliable,
+                                    job-ready professionals for short-term and project-based roles. From
+                                    administrative support to on-site operations, we ensure the right talent
+                                    is available when and where you need it, helping you maintain efficiency
+                                    and continuity.
                                 </p>
                                 <Link href="/jobs" className="btn btn-primary mt-3">Search Job</Link>
                             </div>
@@ -108,9 +109,9 @@ export default function About() {
 
                         <div className="accordion" id="faqAccordion">
                             {[
-                                { q: "you’ve got what it takes!", a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?" },
-                                { q: "reach your full potential with a dedicated partner for talent", a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?" },
-                                { q: "Dostay at the top of your game and excel in your field", a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?" },
+                                { q: "you’ve got what it takes!", a: "Temporary roles require adaptability, reliability, and strong work ethics. If you are ready to learn and perform, we help you find opportunities that match your strengths." },
+                                { q: "reach your full potential with a dedicated partner for talent", a: "We support you beyond job placement by offering guidance, career insights, and continuous opportunities that help you grow professionally." },
+                                { q: "Dostay at the top of your game and excel in your field", a: "y connecting you with diverse work environments and hands-on experience, temporary staffing helps you sharpen your skills and stay competitive in the job market." },
                             ].map((item, idx) => (
                                 <div key={idx} className="accordion-item">
                                     <h2 className="accordion-header">
@@ -264,13 +265,13 @@ export default function About() {
                             </div>
                             <div className="col-lg-6">
                                 <h2 className="section-title" style={{ fontSize: "40px" }}>
-                                    permanent recruitment solutions for long-term growths
+                                    temporary staffing solutions for flexible workforce needs
                                 </h2>
-                                <p className="mb-2">
-                                    Lorem ipsum dolor sit amet consectetur. Sagittis mauris orci felis arcu eu habitant elementum quam. Purus amet vivamus at venenatis auctor egestas vehicula. Etiam scelerisque morbi consectetur ipsum potenti velit ipsum. Adipiscing vel quisque ac ultrices sollicitudin amet tempor nullam.
-                                </p>
                                 <p className="mb-4">
-                                    Facilisi luctus neque ligula mauris senectus ac nam netus massa. A vivamus ultrices neque neque iaculis tellus id nec. Tristique diam at elementum vel eu enim. Tristique eget ipsum nisl facilisis scelerisque amet. Id viverra nulla penatibus
+                                    Our temporary staffing solutions help businesses stay agile during peak
+                                    demand, special projects, and seasonal requirements. We connect you with
+                                    skilled professionals who are ready to contribute immediately, ensuring
+                                    productivity without long-term hiring commitments.
                                 </p>
                                 <Link href="#" className="text-decoration-underline" style={{ fontWeight: "500" }}>Explore</Link>
 
@@ -286,15 +287,19 @@ export default function About() {
                             <div className="col-7">
                                 <h2 className="section-title">
                                     need help with your resume?
+
                                 </h2>
-                                <p className="mb-0">Lorem ipsum dolor sit amet consectetur. Eu ante cursus justo lectus ac mauris Venenatis vel risus pretium diam aliquam.</p>
+                                <p className="mb-0">Our resume experts help you present your skills and experience in the best
+                                    possible way. Whether you are applying for temporary roles or long-term
+                                    opportunities, we make sure your resume stands out to employers.
+                                </p>
                             </div>
                             <div className="col-lg-5 text-end">
                                 <Image src="/images/need-resume.png" className="" width={360} height={313} alt="" />
                             </div>
                         </div>
                     </div>
-                </section>  
+                </section>
             </div >
         </>
     );

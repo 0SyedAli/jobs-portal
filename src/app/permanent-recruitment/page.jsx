@@ -7,7 +7,7 @@ import { IoCheckmarkOutline } from "react-icons/io5";
 export default function About() {
   return (
     <>
-      
+
       <div className="about-wrapper">
         {/* Hero Section */}
         <div className="hero-section">
@@ -34,33 +34,30 @@ export default function About() {
               {[
                 {
                   img: "/images/blog2.jpg",
-                  title: "it's free",
-                  label: "news",
+                  title: "it is free",
                   bLi: [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                  ],
+                    "Gain full access to expert career guidance at no cost.",
+                    "Personalized recommendations tailored to your goals.",
+                    "Immediate support designed to help you move forward with confidence."
+                  ]
                 },
                 {
                   img: "/images/blog1.jpg",
-                  title: "it's free",
-                  label: "news",
+                  title: "One On One Advice",
                   bLi: [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                  ],
+                    "Receive tailored advice from experienced professionals.",
+                    "Get clarity on the best direction for your next career move.",
+                    "Improve your confidence through professional guidance.",
+                  ]
                 },
                 {
-                  img: "/images/blog1.jpg",
-                  title: "it's free",
-                  label: "news",
+                  img: "/images/blog2.jpg",
+                  title: "Expanded Access To Interesting Jobs",
                   bLi: [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                  ],
+                    "Explore diverse opportunities matched to your strengths.",
+                    "Connect with recruiters who value your unique skill set.",
+                    "Stay informed about new openings that fit your goals.",
+                  ]
                 },
               ].map((post, idx) => (
                 <div key={idx} className="col-md-4">
@@ -142,23 +139,22 @@ export default function About() {
               {[
                 {
                   q: "you’ve got what it takes!",
-                  a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
+                  a: "We work with motivated professionals who are ready to grow, adapt, and succeed. Whether you are starting your career or looking to take the next big step, we help connect your skills with the right opportunities."
                 },
                 {
-                  q: "reach your full potential with a dedicated partner for talent",
-                  a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
+                  q: "reach your full potential with a dedicated talent partner",
+                  a: "People Index Hub partners with you throughout your career journey. From job matching and resume support to mentorship and long-term career planning, we focus on your professional growth."
                 },
                 {
-                  q: "Dostay at the top of your game and excel in your field",
-                  a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
-                },
+                  q: "stay at the top of your game and excel in your field",
+                  a: "By providing access to industry insights, skill-based opportunities, and expert guidance, we help you stay competitive and continuously improve in your chosen field."
+                }
               ].map((item, idx) => (
                 <div key={idx} className="accordion-item">
                   <h2 className="accordion-header">
                     <button
-                      className={`accordion-button ${
-                        idx === 0 ? "active" : "collapsed"
-                      }`}
+                      className={`accordion-button ${idx === 0 ? "active" : "collapsed"
+                        }`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target={`#accordion${idx}`}
@@ -169,9 +165,8 @@ export default function About() {
                   </h2>
                   <div
                     id={`accordion${idx}`}
-                    className={`accordion-collapse collapse ${
-                      idx === 0 ? "show" : ""
-                    }`}
+                    className={`accordion-collapse collapse ${idx === 0 ? "show" : ""
+                      }`}
                     data-bs-parent="#faqAccordion"
                   >
                     <div className="accordion-body">{item.a}</div>
@@ -260,9 +255,8 @@ export default function About() {
                 <div key={idx} className="accordion-item">
                   <h2 className="accordion-header">
                     <button
-                      className={`accordion-button ${
-                        idx === 0 ? "active" : "collapsed"
-                      }`}
+                      className={`accordion-button ${idx === 0 ? "active" : "collapsed"
+                        }`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target={`#accordion${idx}`}
@@ -273,9 +267,8 @@ export default function About() {
                   </h2>
                   <div
                     id={`accordion${idx}`}
-                    className={`accordion-collapse collapse ${
-                      idx === 0 ? "show" : ""
-                    }`}
+                    className={`accordion-collapse collapse ${idx === 0 ? "show" : ""
+                      }`}
                     data-bs-parent="#faqAccordion"
                   >
                     <div className="accordion-body">{item.a}</div>
@@ -362,7 +355,7 @@ export default function About() {
                 <p className="mb-4">
                   Our recruitment solutions empower businesses to scale with confidence. We focus on quality hiring strategies that support sustainable growth and workforce stability.
                 </p>
-                
+
                 <Link
                   href="#"
                   className="text-decoration-underline"
@@ -398,7 +391,7 @@ export default function About() {
           </div>
         </section>
       </div>
-      
+
     </>
   );
 }

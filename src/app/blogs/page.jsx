@@ -19,14 +19,14 @@ export default function Blogs() {
                                     img: "/images/blog2.jpg",
                                     date: "30 March 2024",
                                     title: "Thirty March Two Thousand Twenty Four",
-                                    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
+                                    para: "Revitalizing Workplace Morale Innovative Tactics For Boosting Employee Engagement in Two Thousand Twenty Four",
                                     label: "news"
                                 },
                                 {
                                     img: "/images/blog1.jpg",
                                     date: "30 March 2024",
                                     title: "Thirty March Two Thousand Twenty Four",
-                                    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, accusantium?",
+                                    para: "How To Avoid The Top Six Most Common Job Interview Mistakes",
                                     label: "blog"
                                 },
                             ].map((post, idx) => (
@@ -37,9 +37,11 @@ export default function Blogs() {
                                         <div className="b_content">
                                             <small className="blog-date">{post.date}</small>
                                             <h6 className="blog-title">{post.title}</h6>
-                                            <a href="#" className="read-more-link">
+                                            <p className="blog-para">{post.para}</p>
+
+                                            {/* <a href="#" className="read-more-link">
                                                 Read more →
-                                            </a>
+                                            </a> */}
                                         </div>
                                     </div>
                                 </div>
